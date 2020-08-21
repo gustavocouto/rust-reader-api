@@ -13,7 +13,7 @@ from exceptions.ValidatorException import ValidatorException
 
 app = flask.Flask(__name__)
 CORS(app)
-connect('rust_reader')
+#connect('rust_reader')
 
 def read_json_request(validator_schema=None):
     json = request.get_json()
@@ -76,6 +76,9 @@ def add_label():
         label = Label(name=json['name'], user=user, compounds=compounds)
         label.save()
         return jsonify(label.plain())
+
+if __name__ == '__main__':
+    app.run()
 
 # file_path = __file__.replace('app.py', 'skew.jpg')
 # image = cv2.imread(file_path)
