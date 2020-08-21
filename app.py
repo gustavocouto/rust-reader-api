@@ -88,4 +88,3 @@ if __name__ == '__main__':
 # reader_result = reader.read()
 # cv2.imshow('img', reader_result)
 # cv2.waitKey(0)
-
