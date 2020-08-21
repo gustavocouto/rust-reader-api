@@ -1,4 +1,5 @@
 import flask
+import os
 from cerberus import Validator
 from flask import request, jsonify
 from flask_cors import CORS
@@ -78,7 +79,8 @@ def add_label():
         return jsonify(label.plain())
 
 if __name__ == '__main__':
-    app.run()
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host=0.0.0.0, port=port)
 
 # file_path = __file__.replace('app.py', 'skew.jpg')
 # image = cv2.imread(file_path)
