@@ -24,62 +24,63 @@ def read_json_request(validator_schema=None):
             raise ValidatorException(validator)
     return json
 
-# @app.errorhandler(ValidatorException)
-# def handle_invalid_usage(error):
-#     response = jsonify(error.errors)
-#     response.status_code = error.status_code
-#     return response
+@app.errorhandler(ValidatorException)
+def handle_invalid_usage(error):
+    response = jsonify(error.errors)
+    response.status_code = error.status_code
+    return response
 
-# @app.route('/api/test', methods=['GET'])
-# def test():
-#     if request.method == 'GET':
-#         return jsonify('Api is working')
+@app.route('/api/test', methods=['GET'])
+def test():
+    if request.method == 'GET':
+        return jsonify('Api is working')
 
-# @app.route('/api/auth', methods=['POST'])
-# def auth():
-#     if request.method == 'POST':
-#         json = read_json_request()
-#         user = User.objects.get(email=json['email'], password=json['password'])
-#         if not user:
-#             raise ValidatorException(errors=[{'user': 'Usuário não encontrado ou senha incorreta'}])
-#         response = flask.Response(dumps(user.plain()), headers={'token': str(user.pk)}, mimetype="application/json")
-#         return response
+@app.route('/api/auth', methods=['POST'])
+def auth():
+    if request.method == 'POST':
+        json = read_json_request()
+        user = User.objects.get(email=json['email'], password=json['password'])
+        if not user:
+            raise ValidatorException(errors=[{'user': 'Usuário não encontrado ou senha incorreta'}])
+        response = flask.Response(dumps(user.plain()), headers={'token': str(user.pk)}, mimetype="application/json")
+        return response
 
-# @app.route('/api/user', methods=['POST'])
-# def user():
-#     if request.method == 'POST':
-#         json = read_json_request(app_validations.user_create_schema)
-#         user = User(name=json['name'], email=json['email'], password=json['password'])
-#         user.save()
-#         return jsonify(user.plain())
+@app.route('/api/user', methods=['POST'])
+def user():
+    if request.method == 'POST':
+        json = read_json_request(app_validations.user_create_schema)
+        user = User(name=json['name'], email=json['email'], password=json['password'])
+        user.save()
+        return jsonify(user.plain())
 
-# @app.route('/api/label', methods=['GET'])
-# def get_labels():
-#     if request.method == 'GET':
-#         me = app_context.get_arg('me')
-#         user = None if me == 'True' or me == 'true' else app_context.get_user()
-#         labels = Label.page(app_context.get_arg('skip', 0), app_context.get_arg('limit', 20), user)
-#         labels_plain = [o.plain() for o in list(labels)]
-#         return jsonify(labels_plain)
+@app.route('/api/label', methods=['GET'])
+def get_labels():
+    if request.method == 'GET':
+        me = app_context.get_arg('me')
+        user = None if me == 'True' or me == 'true' else app_context.get_user()
+        labels = Label.page(app_context.get_arg('skip', 0), app_context.get_arg('limit', 20), user)
+        labels_plain = [o.plain() for o in list(labels)]
+        return jsonify(labels_plain)
 
-# @app.route('/api/label/<label_id>', methods=['GET'])
-# def get_label(label_id):
-#     if request.method == 'GET':
-#         label = Label.objects.get(id=label_id)
-#         return jsonify(label.plain())
+@app.route('/api/label/<label_id>', methods=['GET'])
+def get_label(label_id):
+    if request.method == 'GET':
+        label = Label.objects.get(id=label_id)
+        return jsonify(label.plain())
 
-# @app.route('/api/label', methods=['POST'])
-# def add_label():
-#     if request.method == 'POST':
-#         json = read_json_request(app_validations.label_create_schema)
-#         user = app_context.get_user()
-#         compounds = Compound.track_or_save(json['compounds'] or [])
-#         label = Label(name=json['name'], user=user, compounds=compounds)
-#         label.save()
-#         return jsonify(label.plain())
+@app.route('/api/label', methods=['POST'])
+def add_label():
+    if request.method == 'POST':
+        json = read_json_request(app_validations.label_create_schema)
+        user = app_context.get_user()
+        compounds = Compound.track_or_save(json['compounds'] or [])
+        label = Label(name=json['name'], user=user, compounds=compounds)
+        label.save()
+        return jsonify(label.plain())
 
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
 
 # file_path = __file__.replace('app.py', 'skew.jpg')
 # image = cv2.imread(file_path)
