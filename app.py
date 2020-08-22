@@ -13,8 +13,13 @@ from appenv import app_context, app_validations
 from exceptions.ValidatorException import ValidatorException
 
 app = flask.Flask(__name__)
-#CORS(app)
-#connect('rust_reader')
+CORS(app)
+connect(
+    db='rustreader',
+    username='admin',
+    password='admin',
+    host='mongodb+srv://admin:admin@schoolcluster.s8zzy.gcp.mongodb.net/rustreader?retryWrites=true&w=majority'
+)
 
 def read_json_request(validator_schema=None):
     json = request.get_json()
