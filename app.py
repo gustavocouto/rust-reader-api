@@ -13,7 +13,7 @@ from appenv import app_context, app_validations
 from exceptions.ValidatorException import ValidatorException
 
 app = flask.Flask(__name__)
-CORS(app)
+#CORS(app)
 #connect('rust_reader')
 
 def read_json_request(validator_schema=None):
@@ -79,8 +79,7 @@ def add_label():
         return jsonify(label.plain())
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run()
 
 # file_path = __file__.replace('app.py', 'skew.jpg')
 # image = cv2.imread(file_path)
