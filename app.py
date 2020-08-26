@@ -13,7 +13,7 @@ from appenv import app_context, app_validations
 from exceptions.ValidatorException import ValidatorException
 
 app = flask.Flask(__name__)
-CORS(app)
+#CORS(app)
 # connect(
 #     db='rustreader',
 #     username='admin',
