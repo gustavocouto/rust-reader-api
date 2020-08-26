@@ -14,12 +14,7 @@ from exceptions.ValidatorException import ValidatorException
 
 app = flask.Flask(__name__)
 CORS(app)
-connect(
-    db='rustreader',
-    username='admin',
-    password='admin',
-    host='mongodb+srv://admin:admin@schoolcluster.s8zzy.gcp.mongodb.net/rustreader?retryWrites=true&w=majority'
-)
+connect(host='mongodb+srv://admin:admin@schoolcluster.s8zzy.gcp.mongodb.net/rustreader?retryWrites=true&w=majority')
 
 def read_json_request(validator_schema=None):
     json = request.get_json()
@@ -44,7 +39,7 @@ def test():
 def auth():
     if request.method == 'POST':
         json = read_json_request()
-        user = User.objects.get(email=json['email'], password=json['password'])
+        user = User.objects.filter(email=json['email'], password=json['password'])
         if not user:
             raise ValidatorException(errors=[{'user': 'Usuário não encontrado ou senha incorreta'}])
         response = flask.Response(dumps(user.plain()), headers={'token': str(user.pk)}, mimetype="application/json")
