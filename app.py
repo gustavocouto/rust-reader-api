@@ -12,6 +12,9 @@ from inspect import isclass
 from appenv import app_context, app_validations
 from exceptions.ValidatorException import ValidatorException
 
+from cv2 import cv2
+from rust.Tesseract import Tesseract
+
 app = flask.Flask(__name__)
 CORS(app)
 connect(host='mongodb+srv://admin:admin@schoolcluster.s8zzy.gcp.mongodb.net/rustreader?retryWrites=true&w=majority')
@@ -57,7 +60,7 @@ def user():
 def get_labels():
     if request.method == 'GET':
         me = app_context.get_arg('me')
-        user = None if me == 'True' or me == 'true' else app_context.get_user()
+        user = None if me != 'True' and me != 'true' else app_context.get_user()
         labels = Label.page(app_context.get_arg('skip', 0), app_context.get_arg('limit', 20), user)
         labels_plain = [o.plain() for o in list(labels)]
         return jsonify(labels_plain)
@@ -67,6 +70,13 @@ def get_label(label_id):
     if request.method == 'GET':
         label = Label.objects.get(id=label_id)
         return jsonify(label.plain())
+
+@app.route('/api/read', methods=['POST'])
+def read():
+    if request.method == 'POST':
+        image = app_context.read_image()
+        tesseract = Tesseract(image)
+        return jsonify(tesseract.get_matches())
 
 @app.route('/api/label', methods=['POST'])
 def add_label():
@@ -82,6 +92,15 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
 
+# file_path = __file__.replace('app.py', 'rotulo.jpg')
+# image = cv2.imread(file_path)
+# tesseract = Tesseract(image)
+# # okok = tesseract.get_text()
+# pre = tesseract.pre_process()
+# text = tesseract.get_text().replace('\n', '')
+# cv2.imshow('img', pre)
+# cv2.waitKey(0)
+# bla = 1
 # file_path = __file__.replace('app.py', 'skew.jpg')
 # image = cv2.imread(file_path)
 # reader = Reader(image)

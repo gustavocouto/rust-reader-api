@@ -9,7 +9,6 @@ class Label(MongoDoc):
     private = BooleanField(required=True, default=False)
     compounds = ListField(ReferenceField(Compound), default=[])
 
-
     def plain(self):
         doc_mongo = super().plain()
         doc_mongo['user'] = self.user.plain()
@@ -18,8 +17,7 @@ class Label(MongoDoc):
     # @staticmethod
     # def find(id):
 
-
     @staticmethod
-    def page(self, skip, limit, restrict_user=None):
-        query = Label.objects(user=restrict_user) if restrict_user else Label.objects()
+    def page(skip, limit, restrict_user=None):
+        query = Label.objects() if restrict_user is None else Label.objects(user=restrict_user)
         return query.skip(skip).limit(limit).all()

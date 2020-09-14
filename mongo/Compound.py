@@ -6,7 +6,7 @@ class Compound(MongoDoc):
     name = StringField(required=True)
     alergenic = BooleanField(default=False)
     sys_field = BooleanField(default=False)
-    derived_from = ReferenceField('self')
+    derived_names = ListField(StringField(), required=True)
 
     @staticmethod
     def search_by_names(names):
@@ -14,10 +14,14 @@ class Compound(MongoDoc):
 
     @staticmethod
     def track_or_save(compounds):
-        names = [_['name'] for _ in compounds]
+        names = [c['name'] for c in compounds]
         match = Compound.search_by_names(names)
-        match_names = [_.name for _ in match]
+        match_names = [m.name for m in match]
         umatch_reduct = lambda arr, _: arr if _['name'] in match_names else [*arr, Compound(name=_['name'])]
         umatch = reduce(umatch_reduct, compounds, [])
         umatch and Compound.objects.insert(umatch)
         return [*match, *umatch]
+
+    @staticmethod
+    def get_sys_compounds():
+        return Compound.objects.filter(sys_field=True)
