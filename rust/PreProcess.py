@@ -39,12 +39,12 @@ def canny(image):
     return cv2.Canny(image, 100, 200)
 
 def invert_color(image):
-    return np.invert(image)
+    return cv2.bitwise_not(image)
 
 def resize_compress(image):
     height, width = image.shape[:2]
-    max_height = 700
-    max_width = 700
+    max_height = 1000
+    max_width = 1000
 
     if max_height < height or max_width < width:
         scaling_factor = max_height / float(height)

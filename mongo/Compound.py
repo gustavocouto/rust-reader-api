@@ -4,9 +4,7 @@ from functools import reduce
 
 class Compound(MongoDoc):
     name = StringField(required=True)
-    alergenic = BooleanField(default=False)
-    sys_field = BooleanField(default=False)
-    derived_names = ListField(StringField(), required=True)
+    derived_from = ReferenceField('self', required=False)
 
     @staticmethod
     def search_by_names(names):
@@ -21,7 +19,3 @@ class Compound(MongoDoc):
         umatch = reduce(umatch_reduct, compounds, [])
         umatch and Compound.objects.insert(umatch)
         return [*match, *umatch]
-
-    @staticmethod
-    def get_sys_compounds():
-        return Compound.objects.filter(sys_field=True)

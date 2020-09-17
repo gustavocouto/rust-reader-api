@@ -9,7 +9,7 @@ from mongo.Compound import Compound
 from mongoengine import connect
 from json import dumps
 from inspect import isclass
-from appenv import app_context, app_validations
+from appenv import app_context, app_validations, app_database
 from exceptions.ValidatorException import ValidatorException
 
 from cv2 import cv2
@@ -48,21 +48,26 @@ def auth():
         response = flask.Response(dumps(user.plain()), headers={'token': str(user.pk)}, mimetype="application/json")
         return response
 
-@app.route('/api/user', methods=['POST'])
+@app.route('/api/user', methods=['POST', 'PUT'])
 def user():
     if request.method == 'POST':
         json = read_json_request(app_validations.user_create_schema)
         user = User(name=json['name'], email=json['email'], password=json['password'])
         user.save()
         return jsonify(user.plain())
+    if request.method == 'PUT':
+        json = read_json_request(app_validations.user_create_schema)
+        user = app_context.get_user()
+        user.update(name=json['name'], priority_allergenics=json['priority_allergenics'], private_account=json['settings']['private_account'])
+        return str(user['id'])
 
 @app.route('/api/label', methods=['GET'])
 def get_labels():
     if request.method == 'GET':
         me = app_context.get_arg('me')
-        user = None if me != 'True' and me != 'true' else app_context.get_user()
+        user = app_context.get_user()
         labels = Label.page(app_context.get_arg('skip', 0), app_context.get_arg('limit', 20), user)
-        labels_plain = [o.plain() for o in list(labels)]
+        labels_plain = [label.plain() for label in list(labels)]
         return jsonify(labels_plain)
 
 @app.route('/api/label/<label_id>', methods=['GET'])
@@ -76,7 +81,8 @@ def read():
     if request.method == 'POST':
         image = app_context.read_image()
         tesseract = Tesseract(image)
-        return jsonify(tesseract.get_matches())
+        matches = tesseract.get_matches_deadline(float(0))
+        return jsonify([match for match in matches])
 
 @app.route('/api/label', methods=['POST'])
 def add_label():
@@ -99,11 +105,4 @@ if __name__ == "__main__":
 # pre = tesseract.pre_process()
 # text = tesseract.get_text().replace('\n', '')
 # cv2.imshow('img', pre)
-# cv2.waitKey(0)
-# bla = 1
-# file_path = __file__.replace('app.py', 'skew.jpg')
-# image = cv2.imread(file_path)
-# reader = Reader(image)
-# reader_result = reader.read()
-# cv2.imshow('img', reader_result)
 # cv2.waitKey(0)

@@ -1,18 +1,18 @@
 from mongoengine import *
 from mongo.Compound import Compound
 from mongo.User import User
+from mongo.CompoundRead import CompoundRead
 from mongo.MongoDoc import MongoDoc
 
 class Label(MongoDoc):
     name = StringField(required=True)
     user = ReferenceField(User, required=True)
-    private = BooleanField(required=True, default=False)
-    compounds = ListField(ReferenceField(Compound), default=[])
+    compounds = ListField(ReferenceField(CompoundRead), default=[])
 
     def plain(self):
-        doc_mongo = super().plain()
-        doc_mongo['user'] = self.user.plain()
-        return doc_mongo
+        doc = super().plain()
+        doc['user'] = self.user.plain()
+        return doc
 
     # @staticmethod
     # def find(id):
