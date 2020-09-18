@@ -10,12 +10,21 @@ user_create_schema = {
     }
 }
 
+compound_schema = {
+    '_id': {'type': 'string'},
+    'name': {'type': 'string'},
+    'derived_from': {'type': 'string'}
+}
+
 label_create_schema = {
-    'name': {'required': True, 'type': 'string', 'minlength': 3, 'maxlength': 100},
-    'compounds': {'required': False, 'type': 'list', 'schema': {
+    'name': {'type': 'string'},
+    'compounds': {'type': 'list', 'schema': {
             'type': 'dict',
             'schema': {
-                'name': {'type': 'string', 'minlength': 3, 'maxlength': 100}
+                '_id': {'type': 'string'},
+                'accuracy': {'type': 'number'},
+                'name': {'type': 'string'},
+                'best_match': {'type': 'dict', 'schema': compound_schema}
             }
         }
     }

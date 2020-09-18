@@ -89,10 +89,8 @@ def add_label():
     if request.method == 'POST':
         json = read_json_request(app_validations.label_create_schema)
         user = app_context.get_user()
-        compounds = Compound.track_or_save(json['compounds'] or [])
-        label = Label(name=json['name'], user=user, compounds=compounds)
-        label.save()
-        return jsonify(label.plain())
+        label_id = Label.add(name=json['name'], user=user, compounds=json['compounds'])
+        return jsonify(str(label_id))
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

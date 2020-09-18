@@ -59,16 +59,22 @@ class Tesseract:
         
         [compounds, texts] = app_multiprocessing.process_all([compounds_p(), image_text_p()])
         async def find_best_match(text):
-            # best_match = process.extractOne(text, compounds)
             matches = difflib.get_close_matches(text, compounds)
             best_match = matches[0] if matches else None
             accuracy = SequenceMatcher(None, best_match, text).ratio() if best_match else 0
-            # ratios = [{'accuracy': SequenceMatcher(None, compound['name'], text).ratio(), 'best_match': compound.plain()} for compound in compounds]
-            # ratio_max = max(ratios, key=lambda ratio: ratio['accuracy'])
             return {'name': text, 'best_match': {'name': best_match}, 'accuracy': accuracy}
 
-        tasks = [find_best_match(text) for text in texts]
-        return app_multiprocessing.process_all(tasks)
+        matches_tasks = [find_best_match(text) for text in texts]
+        matches = app_multiprocessing.process_all(matches_tasks)
+        matches_names = [match['best_match']['name'] for match in matches if match['best_match']['name']]
+        matches_search = Compound.objects(name__in=matches_names)
+        
+        for match in matches:
+            match_search = [search for search in matches_search if search['name'] == match['best_match']['name']]
+            if match_search:
+                match['best_match'] = match_search[0].plain()
+                
+        return matches
 
     def get_matches_deadline(self, deadline):
         start = timeit.default_timer()
