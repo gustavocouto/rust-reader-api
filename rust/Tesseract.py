@@ -8,6 +8,7 @@ from difflib import get_close_matches
 from pytesseract import Output
 from difflib import SequenceMatcher
 from mongo.Compound import Compound
+from mongo.CompoundRead import CompoundRead
 from rust.PreProcess import *
 
 class Tesseract:
@@ -18,31 +19,20 @@ class Tesseract:
         image = self.image
         image = resize_compress(image)
         image = grayscale(image)
-        # image = remove_noise(image)
-        # grays = find_grays(image)
-        # dilated = canny(image)
-        # thresh_fact = find_thresholding_fact(image)
         image = thresholding(image, 160)
         image = invert_color(image)
-        
-        
-        # image = canny(image)
-        # image = erode(image)
-        # image = dilate(image)
-        
-        # image = invert_color_when_black(image)
-        
         image = deskew(image)
-        # image = canny(image)
         
         return image
 
     def get_text(self):
         image = self.pre_process()
-        config = '-c load_freq_dawg=F load_punc_dawg=F load_number_dawg=F load_unambig_dawg=F load_bigram_dawg=F load_fixed_length_dawgs=F language_model_penalty_non_freq_dict_word=1 language_model_penalty_non_dict_word=1'
         user_words_path = __file__.replace('Tesseract.py', 'user-words')
         text = pytesseract.image_to_string(image, lang='por+eng', config='--user-words ' + user_words_path)
         return text.replace('\n', '')
+
+
+
         # load_freq_dawg
         # load_punc_dawg
         # load_number_dawg
@@ -62,7 +52,7 @@ class Tesseract:
             matches = difflib.get_close_matches(text, compounds)
             best_match = matches[0] if matches else None
             accuracy = SequenceMatcher(None, best_match, text).ratio() if best_match else 0
-            return {'name': text, 'best_match': {'name': best_match}, 'accuracy': accuracy}
+            return CompoundRead(name=text, accuracy=accuracy, best_match=Compound(name=best_match))
 
         matches_tasks = [find_best_match(text) for text in texts]
         matches = app_multiprocessing.process_all(matches_tasks)
@@ -72,7 +62,7 @@ class Tesseract:
         for match in matches:
             match_search = [search for search in matches_search if search['name'] == match['best_match']['name']]
             if match_search:
-                match['best_match'] = match_search[0].plain()
+                match['best_match'] = match_search[0]
                 
         return matches
 

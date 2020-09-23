@@ -6,10 +6,10 @@ class Compound(MongoDoc):
     name = StringField(required=True)
     derived_from = ReferenceField('self', required=False)
 
-    def plain(self):
-        doc = super().plain()
-        doc['derived_from'] = str(self.derived_from)
-        return doc
+    # def plain(self):
+    #     doc = super().plain()
+    #     doc['derived_from'] = str(self.derived_from)
+    #     return doc
 
     @staticmethod
     def search_by_names(names):

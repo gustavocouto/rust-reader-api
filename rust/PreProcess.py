@@ -3,7 +3,7 @@ from functools import *
 from statistics import median
 from collections import Counter
 from multiprocessing import Process, Manager
-from cv2 import cv2
+from cv2 import cv2 
 
 # get grayscale image
 def grayscale(image):
@@ -39,7 +39,12 @@ def canny(image):
     return cv2.Canny(image, 100, 200)
 
 def invert_color(image):
-    return cv2.bitwise_not(image)
+    whites = cv2.countNonZero(image)
+    blacks = image.size - whites
+    if blacks > whites:
+        return cv2.bitwise_not(image)
+    else:
+        return image
 
 def resize_compress(image):
     height, width = image.shape[:2]

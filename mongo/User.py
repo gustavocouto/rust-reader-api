@@ -10,10 +10,10 @@ class User(MongoDoc):
     priority_allergenics = ListField(ReferenceField(Compound), default=[])
     settings = DictField()
 
-    def plain(self):
-        doc_mongo = super().plain()
-        del doc_mongo['password']
-        return doc_mongo
+    # def plain(self):
+    #     doc_mongo = super().plain()
+    #     del doc_mongo['password']
+    #     return doc_mongo
 
     def update(self, name=None, email=None, password=None, priority_allergenics=[], private_account=None):
         name = name or self.name

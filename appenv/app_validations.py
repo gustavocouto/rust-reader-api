@@ -11,9 +11,13 @@ user_create_schema = {
 }
 
 compound_schema = {
-    '_id': {'type': 'string'},
+    'id': {'type': 'string'},
     'name': {'type': 'string'},
-    'derived_from': {'type': 'string'}
+    'derived_from': {'type': 'dict', 'schema': {
+        'id': {'type': 'string'},
+        'name': {'type': 'string'},
+        'derived_from': {'type': 'string', 'required': False}
+    }, 'required': False}
 }
 
 label_create_schema = {
@@ -21,10 +25,10 @@ label_create_schema = {
     'compounds': {'type': 'list', 'schema': {
             'type': 'dict',
             'schema': {
-                '_id': {'type': 'string'},
+                'id': {'type': 'string'},
                 'accuracy': {'type': 'number'},
                 'name': {'type': 'string'},
-                'best_match': {'type': 'dict', 'schema': compound_schema}
+                'best_match': {'type': 'dict', 'schema': compound_schema, 'required': False}
             }
         }
     }
