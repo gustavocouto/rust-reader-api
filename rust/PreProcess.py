@@ -5,18 +5,15 @@ from collections import Counter
 from multiprocessing import Process, Manager
 from cv2 import cv2 
 
-# get grayscale image
 def grayscale(image):
     return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# noise removal
 def remove_noise(image):
     return cv2.GaussianBlur(image, (5, 5), 1)
 
 #thresholding
 def thresholding(image, fact):
     thre = cv2.threshold(image, fact, 255, cv2.THRESH_BINARY, cv2.THRESH_OTSU)[1]
-    # thre = cv2.adaptiveThreshold(image,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 3, 1)
     return thre
 
 #dilation

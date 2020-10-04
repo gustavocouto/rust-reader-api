@@ -1,6 +1,6 @@
 [
     {
-        "compound": "(nitrobutyl) morpholine / (ethylnitro-trimethylene) dimorpholi",
+        "ingredient": "(nitrobutyl) morpholine / (ethylnitro-trimethylene) dimorpholi",
         "derivedNames": [
             "4,4'-(2-Ethyl-2-nitro-1,3-propanediyl)bismorpholine mixt. with 4-(2-nitrobutyl)morpholine",
             "4-(2-Nitrobutyl)morpholine - 4,4'-(2-ethylnitrotrimethylene)dimorpholine mixture",
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "compound": "1,2-benzisothiazoline-3-one, sodium salt",
+        "ingredient": "1,2-benzisothiazoline-3-one, sodium salt",
         "derivedNames": [
             "1,2-Benzisothiazol-3(2H)-one",
             "1,2-Benzisothiazolin-3-one",
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "compound": "1,3-butandiol-dimethacrylate",
+        "ingredient": "1,3-butandiol-dimethacrylate",
         "derivedNames": [
             "4,4'-(2-Ethyl-2-nitro-1,3-propanediyl)bismorpholine mixt. with 4-(2-nitrobutyl)morpholine",
             "4-(2-Nitrobutyl)morpholine - 4,4'-(2-ethylnitrotrimethylene)dimorpholine mixture",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "compound": "1,3-diphenylguanidine",
+        "ingredient": "1,3-diphenylguanidine",
         "derivedNames": [
             "1,3-Difenylguanid",
             "1,3-Difenylguanid [Czech]",
@@ -73,7 +73,7 @@
         ]
     },
     {
-        "compound": "1,3,5-tris-(2-hydroxyethyl)-hexahydrotriazine (grotan bk)",
+        "ingredient": "1,3,5-tris-(2-hydroxyethyl)-hexahydrotriazine (grotan bk)",
         "derivedNames": [
             "1,3,5-Tris(2-hydroxyethyl)hexahydro- 1,3,5-triazine",
             "1,3,5-Tris(2-hydroxyethyl)hexahydro-striazine",
@@ -103,7 +103,7 @@
         ]
     },
     {
-        "compound": "1,4-butandioldimethacrylat (budma)",
+        "ingredient": "1,4-butandioldimethacrylat (budma)",
         "derivedNames": [
             "1,4-Butanediol dimethacrylate",
             "1,4-Butylene dimethacrylate",
@@ -124,7 +124,7 @@
         ]
     },
     {
-        "compound": "1,4-butanedioldiglycidyl ether",
+        "ingredient": "1,4-butanedioldiglycidyl ether",
         "derivedNames": [
             "(Tetramethylenebis(oxymethylene))dioxirane",
             "1,4-Bis(2,3-epoxypropoxy)butane",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "compound": "1,6-hexanediolediglycidyl ether",
+        "ingredient": "1,6-hexanediolediglycidyl ether",
         "derivedNames": [
             "((4-(1,1-Dimethylethyl)phenoxy)methyl)oxirane",
             "2,3-Epoxypropyl-4-t-butylphenyl ether",
@@ -172,7 +172,7 @@
         ]
     },
     {
-        "compound": "2-(2-aminoethoxy)-eth",
+        "ingredient": "2-(2-aminoethoxy)-eth",
         "derivedNames": [
             "1-Amino-2-(2-hydroxyethoxy)ethane",
             "2-(2-Aminoethoxy)ethanol",
@@ -195,7 +195,7 @@
         ]
     },
     {
-        "compound": "2-bromo-2nitropropane-1, 3-diol (bronopol)",
+        "ingredient": "2-bromo-2nitropropane-1, 3-diol (bronopol)",
         "derivedNames": [
             "2-Bromo-2-nitropropane-1,3-diol",
             "2-Nitro-2-bromo-1,3-propanediol",
@@ -212,7 +212,7 @@
         ]
     },
     {
-        "compound": "2-ethylhexyl acrylate",
+        "ingredient": "2-ethylhexyl acrylate",
         "derivedNames": [
             "1-Hexanol, 2-ethyl-, acrylate",
             "2-Ethyl-1-hexyl acrylate",
@@ -233,7 +233,7 @@
         ]
     },
     {
-        "compound": "2-ethylhexyl-4-dimethylaminobenzoate",
+        "ingredient": "2-ethylhexyl-4-dimethylaminobenzoate",
         "derivedNames": [
             "2-Ethylhexyl p-(dimethylamino)benzoate",
             "2-Ethylhexyl pdimethylaminobenzoate",
@@ -246,7 +246,7 @@
         ]
     },
     {
-        "compound": "2-ethylhexyl-p-methoxycinnamate",
+        "ingredient": "2-ethylhexyl-p-methoxycinnamate",
         "derivedNames": [
             "2-Ethylhexyl p-methoxycinnamate",
             "2-Propenoic acid, 3-(4-methoxyphenyl)-, 2-ethylhexyl ester",
@@ -260,7 +260,7 @@
         ]
     },
     {
-        "compound": "2-ethylhexyl-p-methoxycinnamate (octinoxate)",
+        "ingredient": "2-ethylhexyl-p-methoxycinnamate (octinoxate)",
         "derivedNames": [
             "Octinoxate",
             "2-Ethylhexyl 4-methoxycinnamate",
@@ -285,7 +285,7 @@
         ]
     },
     {
-        "compound": "2-hydroxy-4-methoxy-benzophenone",
+        "ingredient": "2-hydroxy-4-methoxy-benzophenone",
         "derivedNames": [
             "(2-Hydroxy-4-methoxyphenyl)phenylmethanone",
             "2-Hydroxy-4-methoxybenzophenone",
@@ -296,7 +296,7 @@
         ]
     },
     {
-        "compound": "2-hydroxy-ethylacrylate",
+        "ingredient": "2-hydroxy-ethylacrylate",
         "derivedNames": [
             "2-(Acryloyloxy)ethanol",
             "2-Hydroxyethyl acrylate",
@@ -317,7 +317,7 @@
         ]
     },
     {
-        "compound": "2-hydroxymethyl-2-nitro-1,3-propanediol",
+        "ingredient": "2-hydroxymethyl-2-nitro-1,3-propanediol",
         "derivedNames": [
             "1,1,1-Tris(hydroxymethyl)nitromethane",
             "1,3-Propanediol, 2-(hydroxymethyl)-2-nitro-",
@@ -344,7 +344,7 @@
         ]
     },
     {
-        "compound": "2-hydroxypropyl-methacrylate",
+        "ingredient": "2-hydroxypropyl-methacrylate",
         "derivedNames": [
             "1,2-Propanediol, 2-methyl,monomethacrylate",
             "2-Hydroxypropyl methacrylate",
@@ -358,7 +358,7 @@
         ]
     },
     {
-        "compound": "2-mercaptobenzimidazole",
+        "ingredient": "2-mercaptobenzimidazole",
         "derivedNames": [
             "1H-Benzimidazole-2-thiol",
             "2-Benzimidazolinethione",
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "compound": "2-mercaptobenzothiazole",
+        "ingredient": "2-mercaptobenzothiazole",
         "derivedNames": [
             "2(3H)-Benzothiazolethione",
             "2-Benzothiazolethiol",
@@ -442,7 +442,7 @@
         ]
     },
     {
-        "compound": "3-(4-methylbenzylidene) camphor",
+        "ingredient": "3-(4-methylbenzylidene) camphor",
         "derivedNames": [
             "3-(4-Methylbenzylidene camphor)",
             "4-Methylbenzylidene camphor",
@@ -450,7 +450,7 @@
         ]
     },
     {
-        "compound": "3-aminophenol",
+        "ingredient": "3-aminophenol",
         "derivedNames": [
             "3-Aminophenol",
             "CI 76545",
@@ -494,7 +494,7 @@
         ]
     },
     {
-        "compound": "3,4,4-triclocarban",
+        "ingredient": "3,4,4-triclocarban",
         "derivedNames": [
             "1-(3',4'-Dichlorophenyl)-3-(4'-chlorophenyl)urea",
             "3,4,4'-Trichlorocarbanilide",
@@ -532,7 +532,7 @@
         ]
     },
     {
-        "compound": "4-aminoazobenzene",
+        "ingredient": "4-aminoazobenzene",
         "derivedNames": [
             "4-(Phenylazo)aniline",
             "4-(Phenylazo)benzenamine",
@@ -596,7 +596,7 @@
         ]
     },
     {
-        "compound": "4-chloro-3-cresol (pcmc)",
+        "ingredient": "4-chloro-3-cresol (pcmc)",
         "derivedNames": [
             "2-Chloro-5-hydroxytoluene",
             "2-Chloro-hydroxytoluene",
@@ -656,7 +656,7 @@
         ]
     },
     {
-        "compound": "4-chloro-3,5-xylenol (pcmx)",
+        "ingredient": "4-chloro-3,5-xylenol (pcmx)",
         "derivedNames": [
             "2-Chloro-5-hydroxy-m-xylene",
             "2-chloro-5-hydroxy-m-xylene",
@@ -683,7 +683,7 @@
         ]
     },
     {
-        "compound": "4-hexyl-resorcinol",
+        "ingredient": "4-hexyl-resorcinol",
         "derivedNames": [
             "1,3-Benzenediol, 4-hexyl-",
             "1,3-Dihydroxy-4-hexylbenzene",
@@ -726,7 +726,7 @@
         ]
     },
     {
-        "compound": "4-phenylenediamine base",
+        "ingredient": "4-phenylenediamine base",
         "derivedNames": [
             "1,4-Benzenediamine",
             "1,4-Phenylenediamine",
@@ -761,7 +761,7 @@
         ]
     },
     {
-        "compound": "4-tert-butyl-4-methoxydibenzoylmethane",
+        "ingredient": "4-tert-butyl-4-methoxydibenzoylmethane",
         "derivedNames": [
             "1,3-Propanedione, 1-(4-(1,1-dimethylethyl)phenyl)-3-(4-methoxyphenyl)-",
             "1-(4-(1,1-Dimethylethyl)phenyl)-3-(4-methoxyphenyl)-1,3-propanedione",
@@ -777,7 +777,7 @@
         ]
     },
     {
-        "compound": "4-tert-butylcatechol",
+        "ingredient": "4-tert-butylcatechol",
         "derivedNames": [
             "EINECS 202-653-9",
             "1,2-Benzenediol, 4-(1,1-dimethylethyl)",
@@ -789,7 +789,7 @@
         ]
     },
     {
-        "compound": "4-tert-butylphenol formaldehyde resin",
+        "ingredient": "4-tert-butylphenol formaldehyde resin",
         "derivedNames": [
             "4-(1,1-Dimethylethyl)phenol, formaldehyde polymer",
             "Formaldehyde, p-tert-butylphenol polymer",
@@ -802,7 +802,7 @@
         ]
     },
     {
-        "compound": "4,4-diaminodiphenyl methane",
+        "ingredient": "4,4-diaminodiphenyl methane",
         "derivedNames": [
             "4,4'-Diaminodiphenylmethan",
             "4,4'-Diaminodiphenylmethan [German]",
@@ -854,7 +854,7 @@
         ]
     },
     {
-        "compound": "4,4-dihydroxybiphenyl",
+        "ingredient": "4,4-dihydroxybiphenyl",
         "derivedNames": [
             "4,4'-Biphenol",
             "4,4'-Bisphenol",
@@ -883,7 +883,7 @@
         ]
     },
     {
-        "compound": "abietic acid",
+        "ingredient": "abietic acid",
         "derivedNames": [
             "13-Isopropylpodocarpa-7,13-dien-15-oicacid",
             "7,13-Abietadien-18-oic acid",
@@ -900,13 +900,13 @@
         ]
     },
     {
-        "compound": "abietiol",
+        "ingredient": "abietiol",
         "derivedNames": [
             "abitol"
         ]
     },
     {
-        "compound": "acetylsalicylic adic",
+        "ingredient": "acetylsalicylic adic",
         "derivedNames": [
             "A.S.A. and Codeine Compound",
             "Anacin",
@@ -940,7 +940,7 @@
         ]
     },
     {
-        "compound": "alpha pinene",
+        "ingredient": "alpha pinene",
         "derivedNames": [
             "2,6,6-Trimethylbicyclo(3.1.1)-2-hept-2-ene",
             "2,6,6-Trimethylbicyclo(3.1.1)hept-2-ene",
@@ -967,7 +967,7 @@
         ]
     },
     {
-        "compound": "alpha-amylcinnamic aldehyde",
+        "ingredient": "alpha-amylcinnamic aldehyde",
         "derivedNames": [
             "2-(Phenylmethylene)heptanal",
             "2-07-00-00310 (Beilstein HandbookReference)",
@@ -1000,7 +1000,7 @@
         ]
     },
     {
-        "compound": "alpha-hexylcinnamic aldehyde",
+        "ingredient": "alpha-hexylcinnamic aldehyde",
         "derivedNames": [
             "2-(Phenylmethylene)octanal",
             "2-Benzylideneoctanal",
@@ -1020,7 +1020,7 @@
         ]
     },
     {
-        "compound": "alpha-isomethylionone",
+        "ingredient": "alpha-isomethylionone",
         "derivedNames": [
             "alpha-isomethyl ionone (INCI)",
             "gamma methylionone",
@@ -1029,7 +1029,7 @@
         ]
     },
     {
-        "compound": "aluminum hydroxide",
+        "ingredient": "aluminum hydroxide",
         "derivedNames": [
             "Alumina hydrate",
             "Alumina trihydrate",
@@ -1111,14 +1111,14 @@
         ]
     },
     {
-        "compound": "amalagam",
+        "ingredient": "amalagam",
         "derivedNames": [
             "Amalgam",
             "Mercury"
         ]
     },
     {
-        "compound": "amalgam alloying metals",
+        "ingredient": "amalgam alloying metals",
         "derivedNames": [
             "Silver",
             "Copper",
@@ -1127,7 +1127,7 @@
         ]
     },
     {
-        "compound": "amaranth",
+        "ingredient": "amaranth",
         "derivedNames": [
             "1-(4-Sulfo-1-naphthylazo)-2-naphthol-3,6-disulfonic acidtrisodiumsalt",
             "1-(4-Sulpho-1-naphthylazo)-2-naphthol-3,6-disulphonic acid,trisodiumsalt",
@@ -1269,7 +1269,7 @@
         ]
     },
     {
-        "compound": "amcinonide",
+        "ingredient": "amcinonide",
         "derivedNames": [
             "19alpha-Fluor-11beta,21-dihydroxy-16alpha,17alpha-(tetramethylen)methylendioxy-1,4-pregnadien-3,20-dion 21-acetat",
             "9-Fluoro-11beta,16alpha,17,21-tetrahydroxypregna-1,4-diene-3,20-dionecyclic 16,17-acetal with cyclopentanone,21-acetate",
@@ -1288,14 +1288,14 @@
         ]
     },
     {
-        "compound": "amerchol l101",
+        "ingredient": "amerchol l101",
         "derivedNames": [
             "Amerchol L-101",
             "Amerchol L101"
         ]
     },
     {
-        "compound": "amidoamine (stearamidopropyl dimethylamine)",
+        "ingredient": "amidoamine (stearamidopropyl dimethylamine)",
         "derivedNames": [
             "N-(3-(Dimethylamino)propyl) octadecanamide",
             "Octadecanamide, N-(3-(dimethylamino)propyl)-",
@@ -1313,7 +1313,7 @@
         ]
     },
     {
-        "compound": "aminophenazone",
+        "ingredient": "aminophenazone",
         "derivedNames": [
             "aminophenazone",
             "4-dimethylaminoantipyrine",
@@ -1329,7 +1329,7 @@
         ]
     },
     {
-        "compound": "ammoniated mercury",
+        "ingredient": "ammoniated mercury",
         "derivedNames": [
             "Aminomercuric chloride",
             "Ammoniated mercuric chloride",
@@ -1354,7 +1354,7 @@
         ]
     },
     {
-        "compound": "ammonium heptamolybdate",
+        "ingredient": "ammonium heptamolybdate",
         "derivedNames": [
             "Molybdenum",
             "Ammonium heptamolybdate",
@@ -1374,7 +1374,7 @@
         ]
     },
     {
-        "compound": "ammonium persulphate",
+        "ingredient": "ammonium persulphate",
         "derivedNames": [
             "Ammonium peroxydisulfate",
             "Ammonium persulfate",
@@ -1388,7 +1388,7 @@
         ]
     },
     {
-        "compound": "ammonium tetrachloroplatinate",
+        "ingredient": "ammonium tetrachloroplatinate",
         "derivedNames": [
             "Ammonium chloroplatinate ((NH4)2PtCl4)",
             "Ammonium chloroplatinate(II) (6CI)",
@@ -1403,7 +1403,7 @@
         ]
     },
     {
-        "compound": "ammonium thioglycolate",
+        "ingredient": "ammonium thioglycolate",
         "derivedNames": [
             "AI3-26246",
             "Ammonium mercaptoacetate",
@@ -1419,7 +1419,7 @@
         ]
     },
     {
-        "compound": "ampicillin",
+        "ingredient": "ampicillin",
         "derivedNames": [
             "2S,5R,6R)-6-((R)-2-Amino-2-phenylacetamido)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo(3.2.0)heptane-2-carboxylic acid",
             "4-Thia-1-azabicyclo(3.2.0)heptane-2-carboxylic acid, 6-((aminophenylacetyl)amino)-3,3-dimethyl-7-oxo-, (2S-(2alpha,5alpha,6beta(S*)))-",
@@ -1557,7 +1557,7 @@
         ]
     },
     {
-        "compound": "amylcinnamic alcohol",
+        "ingredient": "amylcinnamic alcohol",
         "derivedNames": [
             "1-Heptanol, 2-(phenylmethylene)-",
             "1-Heptanol, 2-benzylidene-",
@@ -1577,7 +1577,7 @@
         ]
     },
     {
-        "compound": "aniline",
+        "ingredient": "aniline",
         "derivedNames": [
             "AI3-03053",
             "Aminobenzene",
@@ -1615,7 +1615,7 @@
         ]
     },
     {
-        "compound": "anisyl alcohol",
+        "ingredient": "anisyl alcohol",
         "derivedNames": [
             "4-06-00-05909 (Beilstein HandbookReference)",
             "4-Methoxybenzenemethanol",
@@ -1639,7 +1639,7 @@
         ]
     },
     {
-        "compound": "antimony chloride",
+        "ingredient": "antimony chloride",
         "derivedNames": [
             "ANTIMONY TRICHLORIDE",
             "Trichlorostibine",
@@ -1677,7 +1677,7 @@
         ]
     },
     {
-        "compound": "articane hydrochloride",
+        "ingredient": "articane hydrochloride",
         "derivedNames": [
             "Articaine",
             "Articaine hydrochloride",
@@ -1687,7 +1687,7 @@
         ]
     },
     {
-        "compound": "aspartame",
+        "ingredient": "aspartame",
         "derivedNames": [
             "1-Methyl N-L-alpha-aspartyl-Lphenylalanate",
             "1-Methyl N-L-alpha-aspartyl-Lphenylalanine",
@@ -1726,7 +1726,7 @@
         ]
     },
     {
-        "compound": "atranorin",
+        "ingredient": "atranorin",
         "derivedNames": [
             "Antranoric acid",
             "Atranoric acid",
@@ -1742,7 +1742,7 @@
         ]
     },
     {
-        "compound": "atropine sulphate",
+        "ingredient": "atropine sulphate",
         "derivedNames": [
             "1-alpha-H,5-alpha-H-Tropan-3-alpha-ol(+-)-tropate (ester), sulfate(2:1) salt",
             "AI3-14072",
@@ -1778,7 +1778,7 @@
         ]
     },
     {
-        "compound": "azorubine",
+        "ingredient": "azorubine",
         "derivedNames": [
             "1-Naphthalenesulfonic acid, 4-hydroxy-3,4'-azodi-, disodium salt",
             "1-Naphthalenesulfonic acid, 4-hydroxy-3-((4-sulfo-1-naphthalenyl)azo)-, disodium salt",
@@ -1925,7 +1925,7 @@
         ]
     },
     {
-        "compound": "bacitracin",
+        "ingredient": "bacitracin",
         "derivedNames": [
             "Bacitracin",
             "Bacitracin zinc salt",
@@ -1936,7 +1936,7 @@
         ]
     },
     {
-        "compound": "balsam of peru (myroxylon pereirae resin)",
+        "ingredient": "balsam of peru (myroxylon pereirae resin)",
         "derivedNames": [
             "Balsam peru",
             "Myroxylon pereirae oleoresin",
@@ -1954,7 +1954,7 @@
         ]
     },
     {
-        "compound": "basic red 46",
+        "ingredient": "basic red 46",
         "derivedNames": [
             "Basic red 46",
             "Cationic red X-GRL",
@@ -1963,7 +1963,7 @@
         ]
     },
     {
-        "compound": "benzaldehyde",
+        "ingredient": "benzaldehyde",
         "derivedNames": [
             "AI3-09931",
             "Almond artificial essential oil",
@@ -1993,7 +1993,7 @@
         ]
     },
     {
-        "compound": "benzalkonium chloride",
+        "ingredient": "benzalkonium chloride",
         "derivedNames": [
             "Alkyl dimethyl ethylbenzyl ammonium chloride Urea, N,N’’-methylenebis(N’-(1-(hydroxymethyl)-2,5-dioxo-4-imidazolidinyl)-",
             "Alkyl dimethylbenzyl ammonium chloride",
@@ -2090,7 +2090,7 @@
         ]
     },
     {
-        "compound": "benzisothiazolinone",
+        "ingredient": "benzisothiazolinone",
         "derivedNames": [
             "1,2-Benzisothiazol-3(2H)-one",
             "1,2-Benzisothiazolin-3-one",
@@ -2105,7 +2105,7 @@
         ]
     },
     {
-        "compound": "benzocaine",
+        "ingredient": "benzocaine",
         "derivedNames": [
             "Benzocaine",
             "4-carbethoxyaniline",
@@ -2115,7 +2115,7 @@
         ]
     },
     {
-        "compound": "benzoic acid",
+        "ingredient": "benzoic acid",
         "derivedNames": [
             "AI3-0310",
             "AI3-03710",
@@ -2162,7 +2162,7 @@
         ]
     },
     {
-        "compound": "benzophenone-4 (sulisobenzone)",
+        "ingredient": "benzophenone-4 (sulisobenzone)",
         "derivedNames": [
             "1-Phenol-4-sulfonic acid, 2-benzoyl-5-methoxy- (6CI)",
             "2-Hydroxy-4-methoxybenzophenone-5-sulfonicacid",
@@ -2189,7 +2189,7 @@
         ]
     },
     {
-        "compound": "benzophenone-4",
+        "ingredient": "benzophenone-4",
         "derivedNames": [
             "1-Phenol-4-sulfonic acid, 2-benzoyl-5-methoxy- (6CI)",
             "2-Hydroxy-4-methoxybenzophenone-5-sulfonic acid",
@@ -2216,7 +2216,7 @@
         ]
     },
     {
-        "compound": "benzotriazole",
+        "ingredient": "benzotriazole",
         "derivedNames": [
             "1,2,-Aminozophenylene",
             "1,2,3-Benzotriazole",
@@ -2246,7 +2246,7 @@
         ]
     },
     {
-        "compound": "benzoyl peroxide",
+        "ingredient": "benzoyl peroxide",
         "derivedNames": [
             "Abcat 40",
             "Acetoxyl",
@@ -2356,14 +2356,14 @@
         ]
     },
     {
-        "compound": "benzydamine hydrochloride",
+        "ingredient": "benzydamine hydrochloride",
         "derivedNames": [
             "Benzydamine hydrochloride",
             "1-Benzyl-3-(3-dimethylaminopropoxy)-1H-indazole"
         ]
     },
     {
-        "compound": "benzyl alcohol",
+        "ingredient": "benzyl alcohol",
         "derivedNames": [
             "(Hydroxymethyl)benzene",
             "Benzenemethanol",
@@ -2377,7 +2377,7 @@
         ]
     },
     {
-        "compound": "benzyl cinnamate",
+        "ingredient": "benzyl cinnamate",
         "derivedNames": [
             "2-Propenoic acid, 3-phenyl-,phenylmethyl ester",
             "3-Phenyl-2-propenoic acidphenylmethyl ester",
@@ -2402,7 +2402,7 @@
         ]
     },
     {
-        "compound": "benzyl salicylate",
+        "ingredient": "benzyl salicylate",
         "derivedNames": [
             "4-10-00-00157 (Beilstein HandbookReference)",
             "AI3-00517",
@@ -2420,7 +2420,7 @@
         ]
     },
     {
-        "compound": "benzyl-p-hydroxybenzoate",
+        "ingredient": "benzyl-p-hydroxybenzoate",
         "derivedNames": [
             "AI3-02955",
             "Benzyl 4-hydroxybenzoate",
@@ -2438,7 +2438,7 @@
         ]
     },
     {
-        "compound": "benzylamine hydrochloride",
+        "ingredient": "benzylamine hydrochloride",
         "derivedNames": [
             "Benzydamine hydrochloride",
             "Benzydamine HCl",
@@ -2465,7 +2465,7 @@
         ]
     },
     {
-        "compound": "benzylbenzoate",
+        "ingredient": "benzylbenzoate",
         "derivedNames": [
             "4-09-00-00307 (Beilstein Handbook Reference)",
             "AI3-00523",
@@ -2511,14 +2511,14 @@
         ]
     },
     {
-        "compound": "benzylhemiformal",
+        "ingredient": "benzylhemiformal",
         "derivedNames": [
             "Benzyl hemiformal",
             "EINECS 238-588-8"
         ]
     },
     {
-        "compound": "beryllium (ii) chloride",
+        "ingredient": "beryllium (ii) chloride",
         "derivedNames": [
             "Beryllium",
             "Beryllium(II) chloride",
@@ -2527,7 +2527,7 @@
         ]
     },
     {
-        "compound": "betamethason-17,21 dipropionate",
+        "ingredient": "betamethason-17,21 dipropionate",
         "derivedNames": [
             "9-fluoro-11β",
             "17,21-trihydroxy-16β-methylpregna-1,4-diene-3,20-dione",
@@ -2535,7 +2535,7 @@
         ]
     },
     {
-        "compound": "betamethasone-17-valerate",
+        "ingredient": "betamethasone-17-valerate",
         "derivedNames": [
             "Betamethasone 17-valerate",
             "Betaderm",
@@ -2557,14 +2557,14 @@
         ]
     },
     {
-        "compound": "bioban cs 1135",
+        "ingredient": "bioban cs 1135",
         "derivedNames": [
             "Bioban CS-1135",
             "CS 1135"
         ]
     },
     {
-        "compound": "bioban cs 1246",
+        "ingredient": "bioban cs 1246",
         "derivedNames": [
             "1-Aza-5-ethyl-3,7-dioxabicyclo(3.3.0)octane",
             "Bioban CS 1246",
@@ -2579,7 +2579,7 @@
         ]
     },
     {
-        "compound": "bis-(2-ethylhexyl)phthalate",
+        "ingredient": "bis-(2-ethylhexyl)phthalate",
         "derivedNames": [
             "4-09-00-03181 (Beilstein HandbookReference)",
             "AI3-04273",
@@ -2651,7 +2651,7 @@
         ]
     },
     {
-        "compound": "bis-(diethyldithiocarbamato)-zinc",
+        "ingredient": "bis-(diethyldithiocarbamato)-zinc",
         "derivedNames": [
             "AI3-14877",
             "Bis(diethyldithiocarbamato)zinc",
@@ -2684,7 +2684,7 @@
         ]
     },
     {
-        "compound": "bis-gma",
+        "ingredient": "bis-gma",
         "derivedNames": [
             "2-Propenoic acid, 2-methyl-, (1-methylethylidene)bis(4,1-phenyleneoxy(2-hydroxy-3,1-propanediyl)) ester",
             "BRN 2316426",
@@ -2699,7 +2699,7 @@
         ]
     },
     {
-        "compound": "bis (dibenzyldithiocarbamato) zinc",
+        "ingredient": "bis (dibenzyldithiocarbamato) zinc",
         "derivedNames": [
             "Dibenzyldithiocarbamic acid, zinc salt",
             "EINECS 238-778-0",
@@ -2707,7 +2707,7 @@
         ]
     },
     {
-        "compound": "bismark brown r",
+        "ingredient": "bismark brown r",
         "derivedNames": [
             "Bismark brown R",
             "Bismarck brown R",
@@ -2717,7 +2717,7 @@
         ]
     },
     {
-        "compound": "bisphenol a epoxy resin",
+        "ingredient": "bisphenol a epoxy resin",
         "derivedNames": [
             "Epoxy resin",
             "Diglycidyl ether of bisphenol A",
@@ -2749,7 +2749,7 @@
         ]
     },
     {
-        "compound": "bisphenol a",
+        "ingredient": "bisphenol a",
         "derivedNames": [
             "2,2-(4,4'-Dihydroxydiphenyl)propane",
             "2,2-Bis(4-hydroxyphenyl)propane",
@@ -2812,7 +2812,7 @@
         ]
     },
     {
-        "compound": "bisphenol f",
+        "ingredient": "bisphenol f",
         "derivedNames": [
             "2,2'-Methylenebis(phenol)",
             "2,2'-Methylenediphenol",
@@ -2824,14 +2824,14 @@
         ]
     },
     {
-        "compound": "bisphenol-a-dimethacrylate",
+        "ingredient": "bisphenol-a-dimethacrylate",
         "derivedNames": [
             "BIS-DMA",
             "2,2-di(4-methacryloxyphenyl)propane"
         ]
     },
     {
-        "compound": "bithionol",
+        "ingredient": "bithionol",
         "derivedNames": [
             "2,2'-Dihydroxy-3,3',5,5'-tetrachlorodiphenyl sulfide",
             "2,2'-Dihydroxy-3,3',5,5'-tetrachlorodiphenylsulfide",
@@ -2876,7 +2876,7 @@
         ]
     },
     {
-        "compound": "black rubber mix, ppd (b)",
+        "ingredient": "black rubber mix, ppd (b)",
         "derivedNames": [
             "N-Isopropyl-N’-phenyl- paraphenylenediamine",
             "N-phenyl-N’-isopropyl-p- phenylenediamine",
@@ -2886,14 +2886,14 @@
         ]
     },
     {
-        "compound": "brilliant black",
+        "ingredient": "brilliant black",
         "derivedNames": [
             "Brilliant black",
             "C.I. 27260"
         ]
     },
     {
-        "compound": "budesonide",
+        "ingredient": "budesonide",
         "derivedNames": [
             "Budesonide",
             "CCRIS 5230",
@@ -2914,7 +2914,7 @@
         ]
     },
     {
-        "compound": "bufexamac",
+        "ingredient": "bufexamac",
         "derivedNames": [
             "4-Butoxy-Nhydroxybenzeneacetamide",
             "4-Butoxyphenylacetohydroxamic acid",
@@ -2947,7 +2947,7 @@
         ]
     },
     {
-        "compound": "butyl methoxydibenzoyl methane",
+        "ingredient": "butyl methoxydibenzoyl methane",
         "derivedNames": [
             "1,3-Propanedione, 1-(4-(1,1- dimethylethyl)phenyl)-3-(4- methoxyphenyl)-",
             "1-(4-(1,1-Dimethylethyl)phenyl)-3- (4-methoxyphenyl)-1,3- propanedione",
@@ -2963,7 +2963,7 @@
         ]
     },
     {
-        "compound": "butyl-p-hydroxybenzoate",
+        "ingredient": "butyl-p-hydroxybenzoate",
         "derivedNames": [
             "-(Butoxycarbonyl)phenol",
             "4-10-00-00375 (Beilstein HandbookReference)",
@@ -3004,7 +3004,7 @@
         ]
     },
     {
-        "compound": "butylacrylate",
+        "ingredient": "butylacrylate",
         "derivedNames": [
             "2-Propenoic acid, butyl ester",
             "4-02-00-01463 (Beilstein HandbookReference)",
@@ -3024,7 +3024,7 @@
         ]
     },
     {
-        "compound": "butylglycidyl ether",
+        "ingredient": "butylglycidyl ether",
         "derivedNames": [
             "1-Butoxy-2,3-epoxypropane",
             "2,3-Epoxypropyl butyl ether",
@@ -3052,7 +3052,7 @@
         ]
     },
     {
-        "compound": "butylhydroxyanisole (bha)",
+        "ingredient": "butylhydroxyanisole (bha)",
         "derivedNames": [
             "(1,1-Dimethylethyl)-4-methoxyphenol",
             "2(3)-tert-Butyl-4-hydroxyanisole",
@@ -3088,7 +3088,7 @@
         ]
     },
     {
-        "compound": "butylhydroxytoluene (bht)",
+        "ingredient": "butylhydroxytoluene (bht)",
         "derivedNames": [
             "Ionol CP-antioxidant",
             "1-Hydroxy-4-methyl-2,6-di-tertbutylbenzene",
@@ -3199,7 +3199,7 @@
         ]
     },
     {
-        "compound": "cadmium chloride",
+        "ingredient": "cadmium chloride",
         "derivedNames": [
             "Cadmium chloride",
             "Cadmium Sulfate",
@@ -3213,7 +3213,7 @@
         ]
     },
     {
-        "compound": "cadmium sulfate",
+        "ingredient": "cadmium sulfate",
         "derivedNames": [
             "Cadmium chloride",
             "Cadmium Sulfate",
@@ -3227,7 +3227,7 @@
         ]
     },
     {
-        "compound": "caine mix (a)",
+        "ingredient": "caine mix (a)",
         "derivedNames": [
             "benzocaine",
             "dibucaine hydrochloride",
@@ -3235,7 +3235,7 @@
         ]
     },
     {
-        "compound": "caine mix (c)",
+        "ingredient": "caine mix (c)",
         "derivedNames": [
             "benzocaine",
             "dibucaine hydrochloride",
@@ -3243,7 +3243,7 @@
         ]
     },
     {
-        "compound": "camphor",
+        "ingredient": "camphor",
         "derivedNames": [
             "Camphor",
             "1,7,7-Trimethylbicyclo(2.2.1)heptan-2-one",
@@ -3253,7 +3253,7 @@
         ]
     },
     {
-        "compound": "cananga odorata (ylang ylang i)",
+        "ingredient": "cananga odorata (ylang ylang i)",
         "derivedNames": [
             "Ylang ylang oil",
             "Cananga oil",
@@ -3266,7 +3266,7 @@
         ]
     },
     {
-        "compound": "cananga odorata (ylang ylang) ",
+        "ingredient": "cananga odorata (ylang ylang) ",
         "derivedNames": [
             "Ylang ylang oil",
             "Cananga oil",
@@ -3279,7 +3279,7 @@
         ]
     },
     {
-        "compound": "carba mix",
+        "ingredient": "carba mix",
         "derivedNames": [
             "Diphenylguanidine",
             "1,3-Diphenylguanidine",
@@ -3295,7 +3295,7 @@
         ]
     },
     {
-        "compound": "carboxymethyl cellulose sodium",
+        "ingredient": "carboxymethyl cellulose sodium",
         "derivedNames": [
             "Cellulose, carboxymethylether",
             "Carmellose",
@@ -3305,7 +3305,7 @@
         ]
     },
     {
-        "compound": "carmine",
+        "ingredient": "carmine",
         "derivedNames": [
             "B Rose liquid",
             "CCRIS 1204",
@@ -3319,7 +3319,7 @@
         ]
     },
     {
-        "compound": "carvone",
+        "ingredient": "carvone",
         "derivedNames": [
             "(S)-(+)-p-Mentha-6,8-dien-2-one",
             "(S)-Carvone",
@@ -3336,7 +3336,7 @@
         ]
     },
     {
-        "compound": "cedar oil",
+        "ingredient": "cedar oil",
         "derivedNames": [
             "Caswell No. 165C",
             "Cedar oil",
@@ -3359,7 +3359,7 @@
         ]
     },
     {
-        "compound": "cesium chloride",
+        "ingredient": "cesium chloride",
         "derivedNames": [
             "CESIUM CHLORIDE",
             "Caesium chloride",
@@ -3380,7 +3380,7 @@
         ]
     },
     {
-        "compound": "cetalconium chloride",
+        "ingredient": "cetalconium chloride",
         "derivedNames": [
             "AI3-03464",
             "Acinol",
@@ -3434,7 +3434,7 @@
         ]
     },
     {
-        "compound": "cetrimide",
+        "ingredient": "cetrimide",
         "derivedNames": [
             "Cetrimide",
             "Cetrimonium bromide",
@@ -3445,7 +3445,7 @@
         ]
     },
     {
-        "compound": "cetylpyridinium chloride",
+        "ingredient": "cetylpyridinium chloride",
         "derivedNames": [
             "1-Cetylpyridinium chloride",
             "1-Hexadecylpyridinium chloride",
@@ -3493,7 +3493,7 @@
         ]
     },
     {
-        "compound": "cetylstearylalcohol",
+        "ingredient": "cetylstearylalcohol",
         "derivedNames": [
             "(C16-C18) Alkyl alcohol",
             "(C16-C18)-Alkyl alcohol",
@@ -3501,7 +3501,7 @@
         ]
     },
     {
-        "compound": "chloramine t",
+        "ingredient": "chloramine t",
         "derivedNames": [
             "Chloramine T",
             "Chloramine-T",
@@ -3511,7 +3511,7 @@
         ]
     },
     {
-        "compound": "chloramphenicol",
+        "ingredient": "chloramphenicol",
         "derivedNames": [
             "Acetamide, 2,2-dichloro-N-(2-hydroxy-1-(hydroxymethyl)-2-(4-nitrophenyl)ethyl)-, (R-(R*,R*))-",
             "Alficetyn",
@@ -3580,7 +3580,7 @@
         ]
     },
     {
-        "compound": "chlorhexidine digluconate",
+        "ingredient": "chlorhexidine digluconate",
         "derivedNames": [
             "1,1’-Hexamethylenebis(5-(p-chlorophenyl)biguanide) di-D-gluconate",
             "1,1’-Hexamethylenebis(5-(p-chlorophenyl)biguanide) gluconate",
@@ -3635,7 +3635,7 @@
         ]
     },
     {
-        "compound": "chlorhexidine diacetate",
+        "ingredient": "chlorhexidine diacetate",
         "derivedNames": [
             "Chlorhexidine diacetate",
             "Chlorhexidine acetate",
@@ -3663,7 +3663,7 @@
         ]
     },
     {
-        "compound": "chloroacetamide",
+        "ingredient": "chloroacetamide",
         "derivedNames": [
             "2-Chloracetamide",
             "2-Chloroacetamide",
@@ -3684,14 +3684,14 @@
         ]
     },
     {
-        "compound": "chlorotetracycline-hcl",
+        "ingredient": "chlorotetracycline-hcl",
         "derivedNames": [
             "Chlortetracycline HCL",
             "EINECS 222-936-0"
         ]
     },
     {
-        "compound": "chlorphenamine maleate",
+        "ingredient": "chlorphenamine maleate",
         "derivedNames": [
             "1-(N,N-Dimethylamino)-3-(pchlorophenyl-3-alpha-pyridyl)propanemaleate",
             "1-(p-Chlorphenyl)-1-(2-pyridyl)-3-dimethylaminopropan maleat",
@@ -3741,7 +3741,7 @@
         ]
     },
     {
-        "compound": "chlorpromazine-hcl",
+        "ingredient": "chlorpromazine-hcl",
         "derivedNames": [
             "10-(3-Dimethylaminopropyl)-2-chlorophenothiazinemonohydrochloride",
             "2-Chloro-10-(3-(dimethylamino)propyl)phenothiazine monohydrochloride",
@@ -3790,7 +3790,7 @@
         ]
     },
     {
-        "compound": "chlorquinaldol",
+        "ingredient": "chlorquinaldol",
         "derivedNames": [
             "5,7-Dichloro-2-methyl-8-hydroxyquinoline",
             "5,7-Dichloro-2-methyl-8-quinolinol",
@@ -3818,14 +3818,14 @@
         ]
     },
     {
-        "compound": "chromium (ii) sulphate",
+        "ingredient": "chromium (ii) sulphate",
         "derivedNames": [
             "Chromium sulfate (CrSO4)",
             "Chromous sulfate"
         ]
     },
     {
-        "compound": "chromium (iii) chloride",
+        "ingredient": "chromium (iii) chloride",
         "derivedNames": [
             "C.I. 77295",
             "CCRIS 5557",
@@ -3841,7 +3841,7 @@
         ]
     },
     {
-        "compound": "cinnamic alcohol",
+        "ingredient": "cinnamic alcohol",
         "derivedNames": [
             "1-06-00-00281 (Beilstein HandbookReference)",
             "1-Phenylprop-1-en-3-ol",
@@ -3873,7 +3873,7 @@
         ]
     },
     {
-        "compound": "cinnamic aldehyde",
+        "ingredient": "cinnamic aldehyde",
         "derivedNames": [
             "2-Propenal, 3-phenyl-",
             "3-Phenyl-2-propenaldehyde",
@@ -3900,7 +3900,7 @@
         ]
     },
     {
-        "compound": "citral",
+        "ingredient": "citral",
         "derivedNames": [
             "2,6-Dimethyloctadien-2,6-al-8",
             "2,6-Octadienal, 3,7-dimethyl-",
@@ -3925,7 +3925,7 @@
         ]
     },
     {
-        "compound": "citronellal",
+        "ingredient": "citronellal",
         "derivedNames": [
             "2,3-Dihydrocitral",
             "3,7-Dimethyl-6-octen-1-al",
@@ -3948,7 +3948,7 @@
         ]
     },
     {
-        "compound": "citronellol",
+        "ingredient": "citronellol",
         "derivedNames": [
             "2,6-Dimethyl-2-octen-8-ol",
             "3,7-Dimethyl-6-octen-1-ol",
@@ -3969,7 +3969,7 @@
         ]
     },
     {
-        "compound": "clioquinol",
+        "ingredient": "clioquinol",
         "derivedNames": [
             "5-21-03-00294 (Beilstein HandbookReference)",
             "5-Chlor-7-jod-8-hydroxy-chinolin",
@@ -4068,7 +4068,7 @@
         ]
     },
     {
-        "compound": "clobetasol-17-propionate",
+        "ingredient": "clobetasol-17-propionate",
         "derivedNames": [
             "21-Chloro-9-fluoro-11beta,17-dihydroxy-16beta-methylpregna-1,4-diene-3,20-dione17-propionate",
             "21-Chloro-9-fluoro-11betahydroxy-16beta-methylpregna-1,4-diene-3,20-dione17-propionate",
@@ -4084,7 +4084,7 @@
         ]
     },
     {
-        "compound": "clotrimazole",
+        "ingredient": "clotrimazole",
         "derivedNames": [
             "2-Chlorophenyl)diphenyl-1-imidazolylmethane(Chlorotrityl)imidazole",
             "1-((2-Chlorophenyl)diphenylmethyl)-1Himidazole",
@@ -4164,7 +4164,7 @@
         ]
     },
     {
-        "compound": "coal tar",
+        "ingredient": "coal tar",
         "derivedNames": [
             "CCRIS 8631",
             "Carbo-cort",
@@ -4201,7 +4201,7 @@
         ]
     },
     {
-        "compound": "cobalt (ii) chloride hexahydrate",
+        "ingredient": "cobalt (ii) chloride hexahydrate",
         "derivedNames": [
             "CCRIS 7729",
             "Cobalt chloride hexahydrate",
@@ -4212,7 +4212,7 @@
         ]
     },
     {
-        "compound": "cobalt (ii) sulphate",
+        "ingredient": "cobalt (ii) sulphate",
         "derivedNames": [
             "Cobalt (2+) sulfate",
             "Cobalt Brown",
@@ -4232,7 +4232,7 @@
         ]
     },
     {
-        "compound": "cocamidopropyl betaine",
+        "ingredient": "cocamidopropyl betaine",
         "derivedNames": [
             "1-Propanaminium, N-(carboxymethyl)-N,N-dimethyl-3-((1-oxococonut)amino)-, hydroxide, inner salt",
             "N-(2-Aminoethyl)-N-(2-(2-carboxyethoxy)ethyl) beta-alanine, norcocoacyl derivs., disodium salts",
@@ -4249,7 +4249,7 @@
         ]
     },
     {
-        "compound": "cochineal red",
+        "ingredient": "cochineal red",
         "derivedNames": [
             "1,3-Naphthalenedisulfon c acid, 7-hydroxy-8-((4-sulfo-1-naphthalenyl)azo)-, trisodium salt",
             "1-(4-Sulpho-1-naphthylazo)-2-naphthol-6,8-disulphonic acid, trisodium salt",
@@ -4413,7 +4413,7 @@
         ]
     },
     {
-        "compound": "coconut diethamide (cocamide dea)",
+        "ingredient": "coconut diethamide (cocamide dea)",
         "derivedNames": [
             "Coconut diethanolamide",
             "Alkanolamide of coconut oil fatty acids and diethanolamine",
@@ -4440,13 +4440,13 @@
         ]
     },
     {
-        "compound": "cold cream",
+        "ingredient": "cold cream",
         "derivedNames": [
             "No ingredients listed."
         ]
     },
     {
-        "compound": "colophony",
+        "ingredient": "colophony",
         "derivedNames": [
             "Colophony",
             "Abietic alcohol",
@@ -4462,7 +4462,7 @@
         ]
     },
     {
-        "compound": "compositae mix",
+        "ingredient": "compositae mix",
         "derivedNames": [
             "Achillea",
             "Achillea millefolium",
@@ -4496,7 +4496,7 @@
         ]
     },
     {
-        "compound": "copper sulphate",
+        "ingredient": "copper sulphate",
         "derivedNames": [
             "All Clear Root Destroyer",
             "Aqua Maid Permanent Algaecide",
@@ -4548,7 +4548,7 @@
         ]
     },
     {
-        "compound": "corticosteroide mix",
+        "ingredient": "corticosteroide mix",
         "derivedNames": [
             "Hydrocortisone-21-acetate (Class A)",
             "Hydrocortisone-17-butyrate (Class D2)",
@@ -4556,7 +4556,7 @@
         ]
     },
     {
-        "compound": "coumarin",
+        "ingredient": "coumarin",
         "derivedNames": [
             "1,2-Benzopyrone",
             "2-Oxo-1,2-benzopyran",
@@ -4597,7 +4597,7 @@
         ]
     },
     {
-        "compound": "cyanocobalamin",
+        "ingredient": "cyanocobalamin",
         "derivedNames": [
             "1H-Benzimidazole, 5,6-dimethyl-1-(3-Ophosphono-alpha-Dribofuranosyl)-,monoester withcobinamide cyanide hydroxide, innersalt",
             "1H-Benzimidazole, 5,6-dimethyl-1-(3-Ophosphono-alpha-Dribofuranosyl)-,monoester withcobinamide cyanide, inner salt",
@@ -4753,7 +4753,7 @@
         ]
     },
     {
-        "compound": "cyclohexylthiophtalimide",
+        "ingredient": "cyclohexylthiophtalimide",
         "derivedNames": [
             "1H-Isoindole-1,3(2H)-dione, 2-(cyclohexylthio)-",
             "5-21-11-00117 (Beilstein HandbookReference)",
@@ -4770,7 +4770,7 @@
         ]
     },
     {
-        "compound": "d-limonene",
+        "ingredient": "d-limonene",
         "derivedNames": [
             "(+)-(4R)-Limonene",
             "(+)-4-Isopropenyl-1-methylcyclohexene",
@@ -4817,14 +4817,14 @@
         ]
     },
     {
-        "compound": "decyl glucoside",
+        "ingredient": "decyl glucoside",
         "derivedNames": [
             "D-Glucopyranoside, decyl",
             "Glucoside, decyl"
         ]
     },
     {
-        "compound": "desoximetasone",
+        "ingredient": "desoximetasone",
         "derivedNames": [
             "17-Deoxymethansone",
             "17-Desoximethasone",
@@ -4851,7 +4851,7 @@
         ]
     },
     {
-        "compound": "dexamethasone-21-phospate",
+        "ingredient": "dexamethasone-21-phospate",
         "derivedNames": [
             "Betnelan phosphate",
             "Dexamethasone 21-orthophosphate",
@@ -4868,7 +4868,7 @@
         ]
     },
     {
-        "compound": "dexamethasone",
+        "ingredient": "dexamethasone",
         "derivedNames": [
             "(11beta,16alpha)-9-Fluoro-11,17,21-trihydroxy-16-methylpregna-1,4-diene-3,20-dione",
             "1-Dehydro-16alpha-methyl-9alphafluorohydrocortisone",
@@ -5002,7 +5002,7 @@
         ]
     },
     {
-        "compound": "dexketoprofen",
+        "ingredient": "dexketoprofen",
         "derivedNames": [
             "(S)-(+)-Ketoprofen",
             "DEXKETOPROFEN",
@@ -5027,7 +5027,7 @@
         ]
     },
     {
-        "compound": "dexpanthenol",
+        "ingredient": "dexpanthenol",
         "derivedNames": [
             "(+)-Panthenol(R)-2,4-Dihydroxy-N-(3-hydroxy-propyl)-3,3-dimethylbutanamide",
             "2,4-Dihydroxy-N-(3-hydroxypropyl)-3,3-dimethylbutanamide, (R)-",
@@ -5083,7 +5083,7 @@
         ]
     },
     {
-        "compound": "diallyl disulfide",
+        "ingredient": "diallyl disulfide",
         "derivedNames": [
             "Diallyl disulfide",
             "4,5-dithia-1,7-octadiene",
@@ -5092,7 +5092,7 @@
         ]
     },
     {
-        "compound": "diazolidinyl urea (germall ii)",
+        "ingredient": "diazolidinyl urea (germall ii)",
         "derivedNames": [
             "Diazolidinyl urea",
             "N,N’-Bis(hydroxymethyl) urea",
@@ -5112,7 +5112,7 @@
         ]
     },
     {
-        "compound": "dibenzothiazyl disulphide",
+        "ingredient": "dibenzothiazyl disulphide",
         "derivedNames": [
             "2,2'-Benzothiazyl disulfide",
             "2,2'-Bis(benzothiazolyl) disulfide",
@@ -5167,7 +5167,7 @@
         ]
     },
     {
-        "compound": "dibucaine (cinchocaine-hcl)",
+        "ingredient": "dibucaine (cinchocaine-hcl)",
         "derivedNames": [
             "Dibucaine hydrochloride",
             "C 3225",
@@ -5193,7 +5193,7 @@
         ]
     },
     {
-        "compound": "dibutylphthalate",
+        "ingredient": "dibutylphthalate",
         "derivedNames": [
             "1,2-Benzenedicarboxylic acid,dibutyl ester",
             "4-09-00-03175 (Beilstein HandbookReference)",
@@ -5240,7 +5240,7 @@
         ]
     },
     {
-        "compound": "dibutylthiourea",
+        "ingredient": "dibutylthiourea",
         "derivedNames": [
             "1,3-Di-N-butyl-2-thiourea",
             "1,3-Di-n-butyl-2-thiourea",
@@ -5260,7 +5260,7 @@
         ]
     },
     {
-        "compound": "dichlorophene",
+        "ingredient": "dichlorophene",
         "derivedNames": [
             "((Dihydroxydichloro)diphenyl)methane",
             "2,2'-Dihydroxy-5,5'-dichlorodiphenylmethane",
@@ -5350,7 +5350,7 @@
         ]
     },
     {
-        "compound": "diclofenac",
+        "ingredient": "diclofenac",
         "derivedNames": [
             "2-((2,6-Dichlorophenyl)amino)benzeneaceticacid",
             "BRN 2146636",
@@ -5369,7 +5369,7 @@
         ]
     },
     {
-        "compound": "diethamine",
+        "ingredient": "diethamine",
         "derivedNames": [
             "2,2'-Dihydroxydiethylamine",
             "2,2'-Iminobisethanol",
@@ -5407,7 +5407,7 @@
         ]
     },
     {
-        "compound": "diethylenetriamine",
+        "ingredient": "diethylenetriamine",
         "derivedNames": [
             "1,2-Ethanediamine, N-(2-aminoethyl)-",
             "1,4,7-Triazaheptane",
@@ -5441,7 +5441,7 @@
         ]
     },
     {
-        "compound": "diethylphthalate",
+        "ingredient": "diethylphthalate",
         "derivedNames": [
             "1,2-Benzenedicarboxylic acid, diethylester",
             "4-09-00-03172 (Beilstein HandbookReference)",
@@ -5478,7 +5478,7 @@
         ]
     },
     {
-        "compound": "diethylthiourea",
+        "ingredient": "diethylthiourea",
         "derivedNames": [
             "1,3-diethyl-2-thiourea",
             "1,3-diethyl-2-thiourea",
@@ -5493,7 +5493,7 @@
         ]
     },
     {
-        "compound": "dimethylaminopropylamine (dmapa)",
+        "ingredient": "dimethylaminopropylamine (dmapa)",
         "derivedNames": [
             "1,3-Propanediamine, N,N-dimethyl-",
             "1-(Dimethylamino)-3-aminopropane",
@@ -5521,7 +5521,7 @@
         ]
     },
     {
-        "compound": "dimethylaminopropylamine",
+        "ingredient": "dimethylaminopropylamine",
         "derivedNames": [
             "1,3-Propanediamine, N,N-dimethyl-1-(Dimethylamino)-3-aminopropane",
             "1-Amino-3-dimethylaminopropane",
@@ -5548,7 +5548,7 @@
         ]
     },
     {
-        "compound": "dimethylfumarate",
+        "ingredient": "dimethylfumarate",
         "derivedNames": [
             "Dimethyl fumarate",
             "Dimethyl (E)-but-2-enedioate",
@@ -5561,7 +5561,7 @@
         ]
     },
     {
-        "compound": "dimethylol dihydroxyethyleneurea",
+        "ingredient": "dimethylol dihydroxyethyleneurea",
         "derivedNames": [
             "Dimethyloldihydroxyethyleneurea",
             "2-Imidazolidinone, 4,5-dihydroxy-1,3-bis(hydroxymethyl)-",
@@ -5581,7 +5581,7 @@
         ]
     },
     {
-        "compound": "dimethylphthalate",
+        "ingredient": "dimethylphthalate",
         "derivedNames": [
             "1,2-Benzenedicarboxylic acid, dimethylester",
             "AI3-00262",
@@ -5619,7 +5619,7 @@
         ]
     },
     {
-        "compound": "dioxybenzone",
+        "ingredient": "dioxybenzone",
         "derivedNames": [
             "dioxybenzone",
             "2,2'-DIHYDROXY-4-METHOXYBENZOPHENONE",
@@ -5637,7 +5637,7 @@
         ]
     },
     {
-        "compound": "dipentamethylenethiuram disulphide",
+        "ingredient": "dipentamethylenethiuram disulphide",
         "derivedNames": [
             "1,1'-(Dithiodicarbonothioyl)bispiperidine",
             "1-Piperidinethiocarbonyl disulfide",
@@ -5654,7 +5654,7 @@
         ]
     },
     {
-        "compound": "dipentamethylenethiuram tetrasulphide",
+        "ingredient": "dipentamethylenethiuram tetrasulphide",
         "derivedNames": [
             "4-20-00-01016 (Beilstein HandbookReference)",
             "AI3-28516",
@@ -5681,7 +5681,7 @@
         ]
     },
     {
-        "compound": "diphenyl-p-phenylenediamine",
+        "ingredient": "diphenyl-p-phenylenediamine",
         "derivedNames": [
             "1,4-Benzenediamine, N,N'-diphenyl-",
             "1,4-Bis(phenylamino)benzene",
@@ -5725,7 +5725,7 @@
         ]
     },
     {
-        "compound": "diphenylmethane-4,4-diisocyanate",
+        "ingredient": "diphenylmethane-4,4-diisocyanate",
         "derivedNames": [
             "1,1'-Methylenebis(4-isocyanatobenzene)",
             "4,4'-Diisocyanatodiphenylmethane",
@@ -5793,7 +5793,7 @@
         ]
     },
     {
-        "compound": "diphenylthiourea",
+        "ingredient": "diphenylthiourea",
         "derivedNames": [
             "1,3-Difenylthiomocovina",
             "1,3-Difenylthiomocovina [Czech]",
@@ -5828,7 +5828,7 @@
         ]
     },
     {
-        "compound": "disperse blue 106",
+        "ingredient": "disperse blue 106",
         "derivedNames": [
             "Disperse Blue 106",
             "2-(Ethyl(3-methyl-4-((5-nitro-2-thiazolyl)azo)phenyl)amino)ethanol",
@@ -5836,7 +5836,7 @@
         ]
     },
     {
-        "compound": "disperse blue 124",
+        "ingredient": "disperse blue 124",
         "derivedNames": [
             "Disperse Blue 124",
             "C.I. 111938",
@@ -5848,7 +5848,7 @@
         ]
     },
     {
-        "compound": "disperse blue mix (124/106)",
+        "ingredient": "disperse blue mix (124/106)",
         "derivedNames": [
             "C.I. Disperse Blue 124",
             "EINECS 239-203-6",
@@ -5860,7 +5860,7 @@
         ]
     },
     {
-        "compound": "disperse blue-3",
+        "ingredient": "disperse blue-3",
         "derivedNames": [
             "1-MA-4OEAA",
             "1-MA-4OEAA [Russian]",
@@ -5945,14 +5945,14 @@
         ]
     },
     {
-        "compound": "disperse orange-3",
+        "ingredient": "disperse orange-3",
         "derivedNames": [
             "EINECS 211-984-8",
             "Orange 3"
         ]
     },
     {
-        "compound": "disperse red-1",
+        "ingredient": "disperse red-1",
         "derivedNames": [
             "2-(Ethyl(4-((4-nitrophenyl)azo)phenyl)amino)ethanol",
             "4-Nitro-4'-(ethyl(2-hydroxyethyl)amino)azobenzene",
@@ -6015,7 +6015,7 @@
         ]
     },
     {
-        "compound": "disperse red-11",
+        "ingredient": "disperse red-11",
         "derivedNames": [
             "1,4-DA-2-Moa",
             "1,4-DA-2-Moa [Russian]",
@@ -6067,7 +6067,7 @@
         ]
     },
     {
-        "compound": "disperse red-17",
+        "ingredient": "disperse red-17",
         "derivedNames": [
             "Ethanol,2,2’-[[3-methyl-4-[(4-nitrophenyl)azo]phenyl]imino]bis",
             "2,2’-[[3-methyl-4-[(4-nitrophenyl)azo]phenyl]imino]bisethanol",
@@ -6075,7 +6075,7 @@
         ]
     },
     {
-        "compound": "disperse yellow-3",
+        "ingredient": "disperse yellow-3",
         "derivedNames": [
             "4'-((6-Hydroxy-m-tolyl)azo)acetanilide",
             "4-(2-Hydroxy-5-methylphenylazo)acetanilide",
@@ -6186,7 +6186,7 @@
         ]
     },
     {
-        "compound": "disperse yellow-9",
+        "ingredient": "disperse yellow-9",
         "derivedNames": [
             "2,4-Dinitro-4'-aminodiphenylamine",
             "4-Amino-2',4'-dinitrodiphenylamine",
@@ -6202,7 +6202,7 @@
         ]
     },
     {
-        "compound": "dithiocarbamate mix",
+        "ingredient": "dithiocarbamate mix",
         "derivedNames": [
             "Zinc bis(dimethyldithiocarbamate)",
             "Dimethyldithiocarbamic acid zinc salt",
@@ -6236,14 +6236,14 @@
         ]
     },
     {
-        "compound": "diurethane-dimethacrylate",
+        "ingredient": "diurethane-dimethacrylate",
         "derivedNames": [
             "2-hydroxyethyl methacrylate",
             "2,4,4-trimethyl-1,6-diisocyanatohexane"
         ]
     },
     {
-        "compound": "dl alpha tocopherol t",
+        "ingredient": "dl alpha tocopherol t",
         "derivedNames": [
             "Vitamin E acetate dl-form",
             "(+-)-alpha-Tocopherol acetate",
@@ -6259,7 +6259,7 @@
         ]
     },
     {
-        "compound": "dl-limonene (dipentene)",
+        "ingredient": "dl-limonene (dipentene)",
         "derivedNames": [
             "(+-)-Dipentene",
             "(+-)-Linonene",
@@ -6315,7 +6315,7 @@
         ]
     },
     {
-        "compound": "dmdm hydantoin",
+        "ingredient": "dmdm hydantoin",
         "derivedNames": [
             "1,3-Dimethylol-5,5-dimethylhydantoin",
             "2,4-Imidazolidinedione, 1,3-bis(hydroxymethyl)-5,5-dimethyl-",
@@ -6334,7 +6334,7 @@
         ]
     },
     {
-        "compound": "dodecyl gallate",
+        "ingredient": "dodecyl gallate",
         "derivedNames": [
             "4-10-00-02006 (Beilstein HandbookReference)",
             "BRN 2701981",
@@ -6355,7 +6355,7 @@
         ]
     },
     {
-        "compound": "dodecyl mercaptan",
+        "ingredient": "dodecyl mercaptan",
         "derivedNames": [
             "1-Dodecyl mercaptan",
             "1-Mercaptododecane",
@@ -6381,7 +6381,7 @@
         ]
     },
     {
-        "compound": "edta-sodium",
+        "ingredient": "edta-sodium",
         "derivedNames": [
             "(Ethylenedinitrilo)tetraacetic acidtetrasodium salt",
             "AI3-17182",
@@ -6505,7 +6505,7 @@
         ]
     },
     {
-        "compound": "erythromycin",
+        "ingredient": "erythromycin",
         "derivedNames": [
             "(3R*,4S*,5S*,6R*,7R*,9R*,11R*,12R*,13S*,14R*)-4-((2,6-Dideoxy-3-Cmethyl-3-O-methyl-alpha-L-ribohexopyranosyl)oxy)-14-ethyl-7,12,13-trihydroxy-3,5,7,9,11,13-hexamethyl-6-((3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylohexopyranosyl)oxy)oxacyclotetradecane-",
             "2,10-dione",
@@ -6642,7 +6642,7 @@
         ]
     },
     {
-        "compound": "erythrosin-b",
+        "ingredient": "erythrosin-b",
         "derivedNames": [
             "1427 Red",
             "1671 Red",
@@ -6729,7 +6729,7 @@
         ]
     },
     {
-        "compound": "erythrosine-b",
+        "ingredient": "erythrosine-b",
         "derivedNames": [
             "1427 Red",
             "1671 Red",
@@ -6815,7 +6815,7 @@
         ]
     },
     {
-        "compound": "ethyl 2-cyanoacrylate",
+        "ingredient": "ethyl 2-cyanoacrylate",
         "derivedNames": [
             "CCRIS 1693",
             "EINECS 230-391-5",
@@ -6825,7 +6825,7 @@
         ]
     },
     {
-        "compound": "ethyl acrylate",
+        "ingredient": "ethyl acrylate",
         "derivedNames": [
             "Ethyl acrylate",
             "2-Propenoic acid, ethyl ester",
@@ -6847,7 +6847,7 @@
         ]
     },
     {
-        "compound": "ethyl-p-hydroxybenzoate",
+        "ingredient": "ethyl-p-hydroxybenzoate",
         "derivedNames": [
             "4-10-00-00367 (BeilsteinHandbook Reference)",
             "4-Hydroxybenzoic acid ethylester",
@@ -6889,7 +6889,7 @@
         ]
     },
     {
-        "compound": "ethylenediamine dihydrochloride",
+        "ingredient": "ethylenediamine dihydrochloride",
         "derivedNames": [
             "1,2-Diaminoethane dihydrochloride",
             "1,2-Ethanediamine, dihydrochloride CCRIS 8579",
@@ -6902,7 +6902,7 @@
         ]
     },
     {
-        "compound": "ethyleneglycol-dimethacrylate",
+        "ingredient": "ethyleneglycol-dimethacrylate",
         "derivedNames": [
             "1,2-Bis(methacryloyloxy)ethane",
             "1,2-Ethanediyl 2-methyl-2-propenoate",
@@ -6930,7 +6930,7 @@
         ]
     },
     {
-        "compound": "ethyleneurea, melamine formaldehyde mix",
+        "ingredient": "ethyleneurea, melamine formaldehyde mix",
         "derivedNames": [
             "1,3-Ethyleneurea",
             "2-Imidazolidinone",
@@ -7038,7 +7038,7 @@
         ]
     },
     {
-        "compound": "ethylmethacrylate",
+        "ingredient": "ethylmethacrylate",
         "derivedNames": [
             "2-Methylacrylic acid, ethyl ester",
             "2-Propenoic acid, 2-methyl-, ethyl ester",
@@ -7063,7 +7063,7 @@
         ]
     },
     {
-        "compound": "etofenamate",
+        "ingredient": "etofenamate",
         "derivedNames": [
             "Etofenamate",
             "Etofenamatum",
@@ -7073,7 +7073,7 @@
         ]
     },
     {
-        "compound": "eugenol",
+        "ingredient": "eugenol",
         "derivedNames": [
             "1,3,4-Eugenol",
             "1-Hydroxy-2-methoxy-4-allylbenzene",
@@ -7120,7 +7120,7 @@
         ]
     },
     {
-        "compound": "farnesol",
+        "ingredient": "farnesol",
         "derivedNames": [
             "2,6,10-Dodecatrien-1-ol, 3,7,11-trimethyl-",
             "3,7,11-Trimethyl-2,6,10-dodecatrien-1-ol",
@@ -7138,7 +7138,7 @@
         ]
     },
     {
-        "compound": "fenofibrate",
+        "ingredient": "fenofibrate",
         "derivedNames": [
             "fenofibrate",
             "Procetofen",
@@ -7205,7 +7205,7 @@
         ]
     },
     {
-        "compound": "ferrous sulphate",
+        "ingredient": "ferrous sulphate",
         "derivedNames": [
             "AI3-51903",
             "CCRIS 6796",
@@ -7261,11 +7261,11 @@
         ]
     },
     {
-        "compound": "footwear dermatitis",
+        "ingredient": "footwear dermatitis",
         "derivedNames": []
     },
     {
-        "compound": "formaldehyde",
+        "ingredient": "formaldehyde",
         "derivedNames": [
             "Formaldehyde",
             "Formalin",
@@ -7278,7 +7278,7 @@
         ]
     },
     {
-        "compound": "formic acid",
+        "ingredient": "formic acid",
         "derivedNames": [
             "AI3-24237",
             "Acide formique",
@@ -7317,7 +7317,7 @@
         ]
     },
     {
-        "compound": "fragrance mix (a)",
+        "ingredient": "fragrance mix (a)",
         "derivedNames": [
             "Geraniol",
             "geraniol alcohol",
@@ -7354,7 +7354,7 @@
         ]
     },
     {
-        "compound": "fragrance mix (b)",
+        "ingredient": "fragrance mix (b)",
         "derivedNames": [
             "Geraniol",
             "geraniol alcohol",
@@ -7391,7 +7391,7 @@
         ]
     },
     {
-        "compound": "fragrance mix ii",
+        "ingredient": "fragrance mix ii",
         "derivedNames": [
             "2H-1-Benzopyran-2-one",
             "Coumarin [NF X]",
@@ -7453,7 +7453,7 @@
         ]
     },
     {
-        "compound": "fragrance mix",
+        "ingredient": "fragrance mix",
         "derivedNames": [
             "Geraniol",
             "geraniol alcohol",
@@ -7490,13 +7490,13 @@
         ]
     },
     {
-        "compound": "framycetin sulphate",
+        "ingredient": "framycetin sulphate",
         "derivedNames": [
             "EINECS 223-969-3"
         ]
     },
     {
-        "compound": "fusidic acid",
+        "ingredient": "fusidic acid",
         "derivedNames": [
             "3alpha,11alpha,16beta-Trihydroxy-29-nor-8alpha,9beta,13alpha,14betadammara-17(20),24-dien-21-oicacid 16-acetate",
             "Acide fusidique",
@@ -7518,7 +7518,7 @@
         ]
     },
     {
-        "compound": "gallium oxide",
+        "ingredient": "gallium oxide",
         "derivedNames": [
             "CCRIS 4018",
             "Digallium trioxide",
@@ -7533,7 +7533,7 @@
         ]
     },
     {
-        "compound": "gentamicin sulphate",
+        "ingredient": "gentamicin sulphate",
         "derivedNames": [
             "Apogen",
             "Bristagen",
@@ -7562,7 +7562,7 @@
         ]
     },
     {
-        "compound": "geraniol",
+        "ingredient": "geraniol",
         "derivedNames": [
             "(E)-3,7-Dimethyl-2,6-octadien-1-ol",
             "(E)-Geraniol",
@@ -7591,7 +7591,7 @@
         ]
     },
     {
-        "compound": "germanium (iv) chloride",
+        "ingredient": "germanium (iv) chloride",
         "derivedNames": [
             "Germanium(IV) chloride",
             "Germanium tetrachloride",
@@ -7599,7 +7599,7 @@
         ]
     },
     {
-        "compound": "glutaral",
+        "ingredient": "glutaral",
         "derivedNames": [
             "Glutaral",
             "Glutaraldehyde",
@@ -7626,7 +7626,7 @@
         ]
     },
     {
-        "compound": "glutaraldehyde",
+        "ingredient": "glutaraldehyde",
         "derivedNames": [
             "1,3-Diformylpropane",
             "1,5-Pentanedial",
@@ -7663,7 +7663,7 @@
         ]
     },
     {
-        "compound": "glyceryl monothioglycolate",
+        "ingredient": "glyceryl monothioglycolate",
         "derivedNames": [
             "Acetic acid, mercapto-, monoester with 1,2,3-propanetriol",
             "Glycerol monomercaptoacetate",
@@ -7675,7 +7675,7 @@
         ]
     },
     {
-        "compound": "glyoxal trimeric dihydrate",
+        "ingredient": "glyoxal trimeric dihydrate",
         "derivedNames": [
             "1,2-Ethanedione",
             "4-01-00-03625 (Beilstein Handbook Reference)",
@@ -7697,7 +7697,7 @@
         ]
     },
     {
-        "compound": "gold acid chloride trihydrate",
+        "ingredient": "gold acid chloride trihydrate",
         "derivedNames": [
             "Gold acid chloride trihydrate",
             "Chloroauric acid trihydrate",
@@ -7706,7 +7706,7 @@
         ]
     },
     {
-        "compound": "hexachlorophene",
+        "ingredient": "hexachlorophene",
         "derivedNames": [
             "2,2',3,3',5,5'-Hexachloro-6,6'-dihydroxydiphenylmethane",
             "2,2'-Dihydroxy-3,3',5,5',6,6'-hexachlorodiphenylmethane",
@@ -7817,7 +7817,7 @@
         ]
     },
     {
-        "compound": "hexamethylenetetramine",
+        "ingredient": "hexamethylenetetramine",
         "derivedNames": [
             "1,3,5,7-Tetraazaadamantane",
             "1,3,5,7-Tetraazatricyclo(3.3.1.1(3,7))decane",
@@ -7891,7 +7891,7 @@
         ]
     },
     {
-        "compound": "hexylene glycol",
+        "ingredient": "hexylene glycol",
         "derivedNames": [
             "Hexylene glycol",
             "2-methyl-2,4-pentanediol",
@@ -7899,7 +7899,7 @@
         ]
     },
     {
-        "compound": "homosalate",
+        "ingredient": "homosalate",
         "derivedNames": [
             "Homosalate",
             "Homomenthyl salicylate",
@@ -7926,7 +7926,7 @@
         ]
     },
     {
-        "compound": "hydrazine sulphate",
+        "ingredient": "hydrazine sulphate",
         "derivedNames": [
             "AI3-18433",
             "CCRIS 336",
@@ -7958,7 +7958,7 @@
         ]
     },
     {
-        "compound": "hydrocortisone-17-butyrate",
+        "ingredient": "hydrocortisone-17-butyrate",
         "derivedNames": [
             "11-beta,17-alpha,21-Trihydroxy-4-pregnene-3,20-dione 17-alphabutyrate",
             "11beta,17,21-Trihydroxypregn-4-ene-3,20-dione 17-butyrate",
@@ -7983,7 +7983,7 @@
         ]
     },
     {
-        "compound": "hydrocortisone",
+        "ingredient": "hydrocortisone",
         "derivedNames": [
             "11-beta-Hydrocortisone",
             "11-beta-Hydroxycortisone",
@@ -8154,7 +8154,7 @@
         ]
     },
     {
-        "compound": "hydroquinone monobenzylether",
+        "ingredient": "hydroquinone monobenzylether",
         "derivedNames": [
             "4-(Phenylmethoxy)phenol",
             "4-06-00-05728 (Beilstein Handbook Reference)",
@@ -8194,7 +8194,7 @@
         ]
     },
     {
-        "compound": "hydroquinone",
+        "ingredient": "hydroquinone",
         "derivedNames": [
             "1,4-Benzenediol",
             "1,4-Dihydroxy-benzeen",
@@ -8252,7 +8252,7 @@
         ]
     },
     {
-        "compound": "hydroxycitronellal",
+        "ingredient": "hydroxycitronellal",
         "derivedNames": [
             "1-Octanal, 3,7-dimethyl-7-hydroxy-",
             "3,7-Dimethyl-7-hydroxyoctanal 4-01-00-04058 (Beilstein Handbook Reference)",
@@ -8282,7 +8282,7 @@
         ]
     },
     {
-        "compound": "ibuprofen",
+        "ingredient": "ibuprofen",
         "derivedNames": [
             "Ibuprofen",
             "Benzeneacetic acid, alpha-methyl-4-(2-methylpropyl)-",
@@ -8290,7 +8290,7 @@
         ]
     },
     {
-        "compound": "imidazolidinyl urea (germall 115)",
+        "ingredient": "imidazolidinyl urea (germall 115)",
         "derivedNames": [
             "Germall® 115",
             "Imidazolidinyl urea",
@@ -8303,13 +8303,13 @@
         ]
     },
     {
-        "compound": "indium (iii) chloride",
+        "ingredient": "indium (iii) chloride",
         "derivedNames": [
             "Indium Chloride"
         ]
     },
     {
-        "compound": "indomethacin",
+        "ingredient": "indomethacin",
         "derivedNames": [
             "(1-p-Chlorobenzoyl-5-methoxy-2-methylindol-3-yl)acetic acid",
             "1-(p-Chlorbenzoyl)-5-methoxy-2-methylindol-3-essigsaeure",
@@ -8384,7 +8384,7 @@
         ]
     },
     {
-        "compound": "iododeoxyuridine",
+        "ingredient": "iododeoxyuridine",
         "derivedNames": [
             "1-(2-Deoxy-beta-D-ribofuranosyl)-5-iodouracil",
             "1-beta-D-2'-Deoxyribofuranosyl-5-iodouracil",
@@ -8447,7 +8447,7 @@
         ]
     },
     {
-        "compound": "iodoform",
+        "ingredient": "iodoform",
         "derivedNames": [
             "AI3-52396",
             "CCRIS 346",
@@ -8467,7 +8467,7 @@
         ]
     },
     {
-        "compound": "iodopropynyl butylcarbamate",
+        "ingredient": "iodopropynyl butylcarbamate",
         "derivedNames": [
             "Butyl-3-iodo-2-propynylcarbamate",
             "Carbamic acid, butyl-3-iodo-2-propynyl ester",
@@ -8482,7 +8482,7 @@
         ]
     },
     {
-        "compound": "iron chloride",
+        "ingredient": "iron chloride",
         "derivedNames": [
             "AI3-51902",
             "CCRIS 2299",
@@ -8512,7 +8512,7 @@
         ]
     },
     {
-        "compound": "isoamyl-p-methoxycinnamate",
+        "ingredient": "isoamyl-p-methoxycinnamate",
         "derivedNames": [
             "2-Benzoic acid, 2-propenoic acid, 3-",
             "(4-methoxyphenyl)-3-methylbutyl ester",
@@ -8531,7 +8531,7 @@
         ]
     },
     {
-        "compound": "isoeugenol",
+        "ingredient": "isoeugenol",
         "derivedNames": [
             "1-(3-Methoxy-4-hydroxyphenyl)-1-propene",
             "1-Hydroxy-2-methoxy-4-propen-1-ylbenzene",
@@ -8557,7 +8557,7 @@
         ]
     },
     {
-        "compound": "isophorone diamine (ipd)",
+        "ingredient": "isophorone diamine (ipd)",
         "derivedNames": [
             "3-Aminomethyl-3,5,5-trimethylcyclohexylamine",
             "5-Amino-1,3,3-trimethylcyclohexanemethylamine",
@@ -8571,7 +8571,7 @@
         ]
     },
     {
-        "compound": "isopropylmyristate",
+        "ingredient": "isopropylmyristate",
         "derivedNames": [
             "Methylethyl tetradecanoate",
             "1-Tridecanecarboxylic acid, isopropyl ester",
@@ -8615,7 +8615,7 @@
         ]
     },
     {
-        "compound": "jasmine absolute",
+        "ingredient": "jasmine absolute",
         "derivedNames": [
             "Jasminum officinale",
             "Concrete JasminItalian",
@@ -8629,7 +8629,7 @@
         ]
     },
     {
-        "compound": "jasminum officinale oil (jasminum grandiflorum)",
+        "ingredient": "jasminum officinale oil (jasminum grandiflorum)",
         "derivedNames": [
             "Concrete Jasmin Italian",
             "Concrete jasmin turc",
@@ -8658,7 +8658,7 @@
         ]
     },
     {
-        "compound": "kanamycin sulphate",
+        "ingredient": "kanamycin sulphate",
         "derivedNames": [
             "Cantrex",
             "Cristalomicina",
@@ -8689,7 +8689,7 @@
         ]
     },
     {
-        "compound": "ketoprofen",
+        "ingredient": "ketoprofen",
         "derivedNames": [
             "ketoprofen",
             "2-(3-Benzoylphenyl)propanoic acid",
@@ -8745,7 +8745,7 @@
         ]
     },
     {
-        "compound": "lanolin alcohol",
+        "ingredient": "lanolin alcohol",
         "derivedNames": [
             "Alkoholes lanae",
             "EINECS 232-430-1",
@@ -8756,14 +8756,14 @@
         ]
     },
     {
-        "compound": "laurel leaves oil (laurus nobilis)",
+        "ingredient": "laurel leaves oil (laurus nobilis)",
         "derivedNames": [
             "Laurel leaves oil (Laurus nobilis)",
             "Laurel oil"
         ]
     },
     {
-        "compound": "lavandula angustifolia oil (lavender oil)",
+        "ingredient": "lavandula angustifolia oil (lavender oil)",
         "derivedNames": [
             "EINECS 290-795-2",
             "Lavandula angustifolia angustifolia extracts",
@@ -8771,7 +8771,7 @@
         ]
     },
     {
-        "compound": "lichen acid mix",
+        "ingredient": "lichen acid mix",
         "derivedNames": [
             "Atranorin",
             "Atranorine",
@@ -8807,7 +8807,7 @@
         ]
     },
     {
-        "compound": "lidocaine-hcl",
+        "ingredient": "lidocaine-hcl",
         "derivedNames": [
             "Lidocaine",
             "2’,6’-Acetoxylidide, 2-(diethylamino)-",
@@ -8825,7 +8825,7 @@
         ]
     },
     {
-        "compound": "limonene hydroperoxide",
+        "ingredient": "limonene hydroperoxide",
         "derivedNames": [
             "Limonene",
             "1-Methyl-4-(1-methylethenyl)-cyclohexene",
@@ -8836,13 +8836,13 @@
         ]
     },
     {
-        "compound": "linalool hydroperoxide",
+        "ingredient": "linalool hydroperoxide",
         "derivedNames": [
             "Linalool"
         ]
     },
     {
-        "compound": "lyral (4-(4-hydroxy-4-methyl pentyl)-3-cyclohexen-1-carboxaldehyde)",
+        "ingredient": "lyral (4-(4-hydroxy-4-methyl pentyl)-3-cyclohexen-1-carboxaldehyde)",
         "derivedNames": [
             "4-(4-Hydroxy-4-methylpentyl)-3-cyclohexene-1-carboxaldehyde",
             "BRN 2046455",
@@ -8851,7 +8851,7 @@
         ]
     },
     {
-        "compound": "mafenide",
+        "ingredient": "mafenide",
         "derivedNames": [
             "4-(Aminomethyl)benzenesulfonamide",
             "Ambamide",
@@ -8882,7 +8882,7 @@
         ]
     },
     {
-        "compound": "magnesium-chloride",
+        "ingredient": "magnesium-chloride",
         "derivedNames": [
             "MAGNESIUM CHLORIDE",
             "Magnesium chloride anhydrous",
@@ -8904,7 +8904,7 @@
         ]
     },
     {
-        "compound": "majantole",
+        "ingredient": "majantole",
         "derivedNames": [
             "Majantol",
             "2,2-Dimethyl-3-(3-methylphenyl)-propanol",
@@ -8912,7 +8912,7 @@
         ]
     },
     {
-        "compound": "manganese chloride",
+        "ingredient": "manganese chloride",
         "derivedNames": [
             "AI3-52832",
             "CCRIS 8932",
@@ -8926,7 +8926,7 @@
         ]
     },
     {
-        "compound": "manganese oxide",
+        "ingredient": "manganese oxide",
         "derivedNames": [
             "Manganese oxide",
             "Manganese monooxide",
@@ -8938,7 +8938,7 @@
         ]
     },
     {
-        "compound": "melamine-formaldehyde resin",
+        "ingredient": "melamine-formaldehyde resin",
         "derivedNames": [
             "Budamin MF 55I",
             "Budamin MF 60I",
@@ -8956,7 +8956,7 @@
         ]
     },
     {
-        "compound": "mentha piperita oil (peppermint oil)",
+        "ingredient": "mentha piperita oil (peppermint oil)",
         "derivedNames": [
             "FEMA No. 2848",
             "HSDB 1900",
@@ -8974,7 +8974,7 @@
         ]
     },
     {
-        "compound": "menthol",
+        "ingredient": "menthol",
         "derivedNames": [
             "2-Isopropyl-5-methylcyclohexanol",
             "5-Methyl-2-(1-methylethyl)cyclohexanol",
@@ -8988,7 +8988,7 @@
         ]
     },
     {
-        "compound": "mepivacaine-hcl",
+        "ingredient": "mepivacaine-hcl",
         "derivedNames": [
             "(+-)-1-Methyl-2',6'-pipecoloxylidide monohydrochloride",
             "(1-Methyl-DL-piperidine-2-carboxylic acid)-2,6-dimethylanilide hydrochloride",
@@ -9016,7 +9016,7 @@
         ]
     },
     {
-        "compound": "meradimate",
+        "ingredient": "meradimate",
         "derivedNames": [
             "Meradimate",
             "Menthyl anthranilate",
@@ -9026,7 +9026,7 @@
         ]
     },
     {
-        "compound": "mercapto mix (a)",
+        "ingredient": "mercapto mix (a)",
         "derivedNames": [
             "N-Cyclohexylbenzothiazyl-sulfenamide",
             "cyclohexyl benzothiazolesulfenamide",
@@ -9047,7 +9047,7 @@
         ]
     },
     {
-        "compound": "mercapto mix (b)",
+        "ingredient": "mercapto mix (b)",
         "derivedNames": [
             "N-Cyclohexylbenzothiazyl-sulfenamide",
             "cyclohexyl benzothiazolesulfenamide",
@@ -9068,7 +9068,7 @@
         ]
     },
     {
-        "compound": "mercury (ii) chloride",
+        "ingredient": "mercury (ii) chloride",
         "derivedNames": [
             "Mercury chloride",
             "Mercury dichloride",
@@ -9079,7 +9079,7 @@
         ]
     },
     {
-        "compound": "mercury",
+        "ingredient": "mercury",
         "derivedNames": [
             "CCRIS 1578",
             "Caswell No. 546",
@@ -9112,7 +9112,7 @@
         ]
     },
     {
-        "compound": "metamizol",
+        "ingredient": "metamizol",
         "derivedNames": [
             "EINECS 256-627-7",
             "Metamizol",
@@ -9121,7 +9121,7 @@
         ]
     },
     {
-        "compound": "metanil yellow",
+        "ingredient": "metanil yellow",
         "derivedNames": [
             "11363 Yellow",
             "4-(3-Sulfobenzeneazo)diphenylamine, sodium salt",
@@ -9200,7 +9200,7 @@
         ]
     },
     {
-        "compound": "methyl methacrylate",
+        "ingredient": "methyl methacrylate",
         "derivedNames": [
             "Methylmethacrylate",
             "“monocite” Methacrylate monomer",
@@ -9227,7 +9227,7 @@
         ]
     },
     {
-        "compound": "methyl salicylate",
+        "ingredient": "methyl salicylate",
         "derivedNames": [
             "2-(Methoxycarbonyl)phenol",
             "2-Carbomethoxyphenol",
@@ -9276,7 +9276,7 @@
         ]
     },
     {
-        "compound": "methyl violet",
+        "ingredient": "methyl violet",
         "derivedNames": [
             "Aizen Methyl Violet",
             "Basic Violet 1",
@@ -9302,7 +9302,7 @@
         ]
     },
     {
-        "compound": "methyl-p-hydroxybenzoate",
+        "ingredient": "methyl-p-hydroxybenzoate",
         "derivedNames": [
             "4-(Methoxycarbonyl)phenol",
             "4-10-00-00360 (Beilstein Handbook Reference)",
@@ -9356,7 +9356,7 @@
         ]
     },
     {
-        "compound": "methylchloroisothiazinolone/methylisothiazinolone",
+        "ingredient": "methylchloroisothiazinolone/methylisothiazinolone",
         "derivedNames": [
             "4-Isothiazolin-3-one, 5-chloro-2-methyl-",
             "5-Chloro-2-methyl-4-isothiazolin-3-one",
@@ -9368,7 +9368,7 @@
         ]
     },
     {
-        "compound": "methylchloroisothiazolinone/methylisothiazolinone",
+        "ingredient": "methylchloroisothiazolinone/methylisothiazolinone",
         "derivedNames": [
             "4-Isothiazolin-3-one, 5-chloro-2-methyl-",
             "5-Chloro-2-methyl-4-isothiazolin-3-one",
@@ -9380,7 +9380,7 @@
         ]
     },
     {
-        "compound": "methyldibromo glutaronitrile (mdbgn)",
+        "ingredient": "methyldibromo glutaronitrile (mdbgn)",
         "derivedNames": [
             "1,2-Dibromo-2,4-dicyanobutane",
             "1-Bromo-1-(bromomethyl)-1,3-propanedicarbonitrile",
@@ -9403,7 +9403,7 @@
         ]
     },
     {
-        "compound": "methyldibromo glutaronitrile/phenoxyeth (mdbgn/pe-euxyl)",
+        "ingredient": "methyldibromo glutaronitrile/phenoxyeth (mdbgn/pe-euxyl)",
         "derivedNames": [
             "2-Bromo-2-(bromomethyl)pentanedinitrile, mixt. with 2-phenoxyethanol",
             "Euxyl K 400",
@@ -9419,7 +9419,7 @@
         ]
     },
     {
-        "compound": "methyldibromo glutaronitrile/phenoxyeth",
+        "ingredient": "methyldibromo glutaronitrile/phenoxyeth",
         "derivedNames": [
             "2-Bromo-2-(bromomethyl)pentanedinitrile, mixt. with 2-phenoxyethanol",
             "Euxyl K 400",
@@ -9435,7 +9435,7 @@
         ]
     },
     {
-        "compound": "methylheptincarbonat",
+        "ingredient": "methylheptincarbonat",
         "derivedNames": [
             "Methyl 2-octynoate",
             "Methyl oct-2-ynoate",
@@ -9459,7 +9459,7 @@
         ]
     },
     {
-        "compound": "methylene-bis-benzotriazolyl tetramethylbutyl phenol",
+        "ingredient": "methylene-bis-benzotriazolyl tetramethylbutyl phenol",
         "derivedNames": [
             "Methylene bis-benzotriazolyl tetramethylbutylphenol",
             "Bisoctrizole",
@@ -9476,13 +9476,13 @@
         ]
     },
     {
-        "compound": "methylene-bis (methyloxazolidin)",
+        "ingredient": "methylene-bis (methyloxazolidin)",
         "derivedNames": [
             "EINECS 266-235-8"
         ]
     },
     {
-        "compound": "methylisothiazolinone",
+        "ingredient": "methylisothiazolinone",
         "derivedNames": [
             "4-Isothiazolin-3-one, 5-chloro-2-methyl-",
             "5-Chloro-2-methyl-4-isothiazolin-3-one",
@@ -9494,7 +9494,7 @@
         ]
     },
     {
-        "compound": "metronidazole",
+        "ingredient": "metronidazole",
         "derivedNames": [
             "1-(2-Hydroxy-1-ethyl)-2-methyl-5-nitroimidazole",
             "1-(2-Hydroxyethyl)-2-methyl-5-nitroimidazole",
@@ -9597,7 +9597,7 @@
         ]
     },
     {
-        "compound": "mixed dialkyl thioureas",
+        "ingredient": "mixed dialkyl thioureas",
         "derivedNames": [
             "Dibutylthiourea (DBTU)",
             "Diethylthiourea (DTU)",
@@ -9613,7 +9613,7 @@
         ]
     },
     {
-        "compound": "molybdenum (v) chloride",
+        "ingredient": "molybdenum (v) chloride",
         "derivedNames": [
             "EINECS 233-575-3",
             "Molybdenum chloride",
@@ -9623,7 +9623,7 @@
         ]
     },
     {
-        "compound": "monoethamine",
+        "ingredient": "monoethamine",
         "derivedNames": [
             "1-Amino-2-hydroxyethane",
             "2-Amino-1-ethanol",
@@ -9665,7 +9665,7 @@
         ]
     },
     {
-        "compound": "morpholinyl mercaptobenzothiazole",
+        "ingredient": "morpholinyl mercaptobenzothiazole",
         "derivedNames": [
             "2-(4-Morpholinothio)benzothiazole",
             "2-(4-Morpholinylmercapto)benzothiazole",
@@ -9716,7 +9716,7 @@
         ]
     },
     {
-        "compound": "musk ambrette",
+        "ingredient": "musk ambrette",
         "derivedNames": [
             "1-(1,1-Dimethylethyl)-2-methoxy-4-methyl-3,5-dinitrobenzene",
             "2,4-Dinitro-3-methyl-6-tertbutylanisole",
@@ -9742,7 +9742,7 @@
         ]
     },
     {
-        "compound": "n-cyclohexyl-2-benzothiazyl sulphenamide",
+        "ingredient": "n-cyclohexyl-2-benzothiazyl sulphenamide",
         "derivedNames": [
             "2-(Cyclohexylaminothio)benzothiazole",
             "2-Benzenethiazolesulfenamide, Ncyclohexyl-",
@@ -9795,7 +9795,7 @@
         ]
     },
     {
-        "compound": "n-isopropyl-n-phenyl-p-phenylenediamine (ippd)",
+        "ingredient": "n-isopropyl-n-phenyl-p-phenylenediamine (ippd)",
         "derivedNames": [
             "1,4-Benzenediamine, N-(1-methylethyl)-N'-phenyl-",
             "4-13-00-00115 (Beilstein Handbook Reference)",
@@ -9848,7 +9848,7 @@
         ]
     },
     {
-        "compound": "n-phenyl-b-naphthylamine",
+        "ingredient": "n-phenyl-b-naphthylamine",
         "derivedNames": [
             "2-Anilinonaphthalene",
             "2-Naphthalenamine, N-phenyl-",
@@ -9898,7 +9898,7 @@
         ]
     },
     {
-        "compound": "n,n-dimethyl-p-toluidine",
+        "ingredient": "n,n-dimethyl-p-toluidine",
         "derivedNames": [
             "Benzenamine, N,N,4-trimethyl-",
             "CCRIS 1001",
@@ -9917,7 +9917,7 @@
         ]
     },
     {
-        "compound": "naphthol-as",
+        "ingredient": "naphthol-as",
         "derivedNames": [
             "2-Hydroxy-3-naphthalenecarboxanilide",
             "2-Hydroxy-3-naphthanilide",
@@ -9982,7 +9982,7 @@
         ]
     },
     {
-        "compound": "naproxen",
+        "ingredient": "naproxen",
         "derivedNames": [
             "Naproxen",
             "2-Naphthaleneacetic acid, 6-methoxy-alpha-methyl-, (+)- (8CI)",
@@ -9991,7 +9991,7 @@
         ]
     },
     {
-        "compound": "narcissus absolute",
+        "ingredient": "narcissus absolute",
         "derivedNames": [
             "Narcissus poeticus",
             "Narcisse oil",
@@ -10002,7 +10002,7 @@
         ]
     },
     {
-        "compound": "neodymium (III) chloride",
+        "ingredient": "neodymium (III) chloride",
         "derivedNames": [
             "Neodymium(III) chloride",
             "Neodymium trichloride",
@@ -10013,7 +10013,7 @@
         ]
     },
     {
-        "compound": "neomycin sulphate",
+        "ingredient": "neomycin sulphate",
         "derivedNames": [
             "Neomycin sulfate",
             "Cortisporin",
@@ -10043,7 +10043,7 @@
         ]
     },
     {
-        "compound": "neroli oil",
+        "ingredient": "neroli oil",
         "derivedNames": [
             "Citrus aurantium flower oil",
             "FEMA No. 2771",
@@ -10060,7 +10060,7 @@
         ]
     },
     {
-        "compound": "nickel sulphate hexahydrate",
+        "ingredient": "nickel sulphate hexahydrate",
         "derivedNames": [
             "Nickel sulfate (NiSO4)",
             "nickel (Ni)",
@@ -10073,7 +10073,7 @@
         ]
     },
     {
-        "compound": "niobium (v) chloride",
+        "ingredient": "niobium (v) chloride",
         "derivedNames": [
             "Niobium (V) chloride",
             "Niobium",
@@ -10081,7 +10081,7 @@
         ]
     },
     {
-        "compound": "nitrofurazone",
+        "ingredient": "nitrofurazone",
         "derivedNames": [
             "(5-Nitro-2-furfurylidenamino)urea",
             "1-(5-Nitro-2-furfurylidene)semicarbazide",
@@ -10203,7 +10203,7 @@
         ]
     },
     {
-        "compound": "nonoxynol 9",
+        "ingredient": "nonoxynol 9",
         "derivedNames": [
             "Nonoxynol 9",
             "2-[2-[2-[2-[2-[2-[2-[2-[2-(4-Nonylphenoxy)ethoxy]ethoxy]ethoxy]ethoxy] ethoxy]ethoxy]ethoxy]ethoxy]ethanol",
@@ -10212,7 +10212,7 @@
         ]
     },
     {
-        "compound": "nystatin",
+        "ingredient": "nystatin",
         "derivedNames": [
             "AI3-26526",
             "Barstatin 100",
@@ -10263,7 +10263,7 @@
         ]
     },
     {
-        "compound": "o-cresyl glycidyl ether",
+        "ingredient": "o-cresyl glycidyl ether",
         "derivedNames": [
             "((2-Methylphenoxy)methyl)oxirane",
             "1,2-Epoxy-3-(2-methylphenoxy)propane",
@@ -10293,7 +10293,7 @@
         ]
     },
     {
-        "compound": "o-nitro-p-phenylenediamine",
+        "ingredient": "o-nitro-p-phenylenediamine",
         "derivedNames": [
             "1,4-Benzenediamine, 2-nitro-",
             "1,4-Diamino-2-nitrobenzene",
@@ -10338,13 +10338,13 @@
         ]
     },
     {
-        "compound": "oak moss absolute",
+        "ingredient": "oak moss absolute",
         "derivedNames": [
             "Evernia prunastri"
         ]
     },
     {
-        "compound": "octisalate",
+        "ingredient": "octisalate",
         "derivedNames": [
             "2-ETHYLHEXYL SALICYLATE",
             "Octisalate",
@@ -10373,7 +10373,7 @@
         ]
     },
     {
-        "compound": "octocrylene",
+        "ingredient": "octocrylene",
         "derivedNames": [
             "Octocrylene",
             "2-Ethylhexyl 2-cyano-3,3-diphenylacrylate",
@@ -10390,7 +10390,7 @@
         ]
     },
     {
-        "compound": "octyl gallate",
+        "ingredient": "octyl gallate",
         "derivedNames": [
             "BRN 2132305",
             "Benzoic acid, 3,4,5-trihydroxy-, octyl ester",
@@ -10409,7 +10409,7 @@
         ]
     },
     {
-        "compound": "octylisothiazolinon",
+        "ingredient": "octylisothiazolinon",
         "derivedNames": [
             "2-octyl-2 H-isothiazol-3-one",
             "Octhilinon",
@@ -10418,7 +10418,7 @@
         ]
     },
     {
-        "compound": "oil neroli",
+        "ingredient": "oil neroli",
         "derivedNames": [
             "Citrus aurantium flower oil",
             "FEMA No. 2771",
@@ -10435,7 +10435,7 @@
         ]
     },
     {
-        "compound": "oil of bergamot",
+        "ingredient": "oil of bergamot",
         "derivedNames": [
             "Bergamot oil",
             "Bergamot oil (Citrus aurantium L. subsp. bergamia)",
@@ -10453,7 +10453,7 @@
         ]
     },
     {
-        "compound": "oil of cinnamon",
+        "ingredient": "oil of cinnamon",
         "derivedNames": [
             "Cassia bark oil",
             "Cassia bark oil (Cinnamomum cassia Blume)",
@@ -10477,7 +10477,7 @@
         ]
     },
     {
-        "compound": "oil of cloves",
+        "ingredient": "oil of cloves",
         "derivedNames": [
             "Clove absolute",
             "Clove bud absolute",
@@ -10514,7 +10514,7 @@
         ]
     },
     {
-        "compound": "oil of eucalyptus",
+        "ingredient": "oil of eucalyptus",
         "derivedNames": [
             "Caswell No. 618A",
             "Dinkum oil",
@@ -10546,7 +10546,7 @@
         ]
     },
     {
-        "compound": "oil of lemongrass",
+        "ingredient": "oil of lemongrass",
         "derivedNames": [
             "Caswell No. 618D",
             "Citral terpenes",
@@ -10567,7 +10567,7 @@
         ]
     },
     {
-        "compound": "oil of lemon",
+        "ingredient": "oil of lemon",
         "derivedNames": [
             "Cedro oil",
             "Citrus medica var. limonum oil",
@@ -10590,13 +10590,13 @@
         ]
     },
     {
-        "compound": "oil of patchouli",
+        "ingredient": "oil of patchouli",
         "derivedNames": [
             "Coming Soon"
         ]
     },
     {
-        "compound": "oil of rose",
+        "ingredient": "oil of rose",
         "derivedNames": [
             "Attar of rose",
             "Attar rose",
@@ -10650,7 +10650,7 @@
         ]
     },
     {
-        "compound": "oil of rosemary",
+        "ingredient": "oil of rosemary",
         "derivedNames": [
             "Caswell No. 618E",
             "EPA Pesticide Chemical Code 597700",
@@ -10674,7 +10674,7 @@
         ]
     },
     {
-        "compound": "oleamidopropyl dimethylamine",
+        "ingredient": "oleamidopropyl dimethylamine",
         "derivedNames": [
             "Dimethylaminopropyl oleamide",
             "EINECS 203-661-5",
@@ -10690,7 +10690,7 @@
         ]
     },
     {
-        "compound": "orange oil",
+        "ingredient": "orange oil",
         "derivedNames": [
             "Absolue orange flower",
             "Absolue orange flower decoloree",
@@ -10735,7 +10735,7 @@
         ]
     },
     {
-        "compound": "oxyphenbutazone",
+        "ingredient": "oxyphenbutazone",
         "derivedNames": [
             "Oxyphenbutazone",
             "4-butyl-1-(4-hydroxyphenyl)-2-phenyl-3,5-pyrazolidinedione",
@@ -10744,7 +10744,7 @@
         ]
     },
     {
-        "compound": "oxyquinolin mix",
+        "ingredient": "oxyquinolin mix",
         "derivedNames": [
             "Clioquinol",
             "5-Chloro-7-iodo-8-hydroxyquinoline",
@@ -10762,7 +10762,7 @@
         ]
     },
     {
-        "compound": "oxytetracycline",
+        "ingredient": "oxytetracycline",
         "derivedNames": [
             "2-Naphthacenecarboxamide, 4-(dimethylamino)-1,4,4a,5,5a,6,11,12aoctahydro-3,5,6,10,12,12ahexahydroxy-6-methyl-1,11-dioxo-, (4S-(4alpha,4aalpha,5alpha,5aalpha,6beta,1 2aalpha))-, dehydrate",
             "4-(Dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,5,6,10,12,12ahexahydroxy-6-methyl-1,11-dioxo-2-naphthacenecarboxamide dehydrate",
@@ -10775,13 +10775,13 @@
         ]
     },
     {
-        "compound": "p-aminobenzoic acid",
+        "ingredient": "p-aminobenzoic acid",
         "derivedNames": [
             "Coming Soon"
         ]
     },
     {
-        "compound": "p-aminodiphenylamine",
+        "ingredient": "p-aminodiphenylamine",
         "derivedNames": [
             "1,4-Benzenediamine, Nphenyl-",
             "4-Aminodiphenylamine",
@@ -10836,7 +10836,7 @@
         ]
     },
     {
-        "compound": "p-aminophenol",
+        "ingredient": "p-aminophenol",
         "derivedNames": [
             "1-Amino-4-hydroxybenzene",
             "4-Amino-1-hydroxybenzene",
@@ -10881,7 +10881,7 @@
         ]
     },
     {
-        "compound": "p-tert-butylphenol",
+        "ingredient": "p-tert-butylphenol",
         "derivedNames": [
             "1-Hydroxy-4-tert-butylbenzene",
             "2-tert-Butylphenol",
@@ -10905,7 +10905,7 @@
         ]
     },
     {
-        "compound": "p-tert-butylphenylglycidylether",
+        "ingredient": "p-tert-butylphenylglycidylether",
         "derivedNames": [
             "p-tert-Butylphenyl glycidyl ether",
             "4-tert-Butylphenyl glycidyl ether",
@@ -10936,7 +10936,7 @@
         ]
     },
     {
-        "compound": "p-toluenediamine base",
+        "ingredient": "p-toluenediamine base",
         "derivedNames": [
             "1,4-Benzenediamine, 2-methyl-",
             "2,5-Diaminotoluene",
@@ -10962,7 +10962,7 @@
         ]
     },
     {
-        "compound": "p-toluenediamine sulphate",
+        "ingredient": "p-toluenediamine sulphate",
         "derivedNames": [
             "1,4-Benzenediamine, 2-methyl-, sulfate",
             "2,5-Diaminotoluene sulfate",
@@ -10995,7 +10995,7 @@
         ]
     },
     {
-        "compound": "palladium chloride",
+        "ingredient": "palladium chloride",
         "derivedNames": [
             "CCRIS 6263",
             "Dichloropalladium",
@@ -11013,7 +11013,7 @@
         ]
     },
     {
-        "compound": "para-aminobenzoic acid",
+        "ingredient": "para-aminobenzoic acid",
         "derivedNames": [
             "1-Amino-4-carboxybenzene",
             "4-27-00-07875 (Beilstein Handbook Reference)",
@@ -11066,7 +11066,7 @@
         ]
     },
     {
-        "compound": "paraben mix (a)",
+        "ingredient": "paraben mix (a)",
         "derivedNames": [
             "Methyl p-hydroxybenzoate",
             "Methylparaben",
@@ -11087,7 +11087,7 @@
         ]
     },
     {
-        "compound": "paraben mix (b)",
+        "ingredient": "paraben mix (b)",
         "derivedNames": [
             "Methyl p-hydroxybenzoate",
             "Methylparaben",
@@ -11108,7 +11108,7 @@
         ]
     },
     {
-        "compound": "paraben mix (c)",
+        "ingredient": "paraben mix (c)",
         "derivedNames": [
             "Methyl p-hydroxybenzoate",
             "Methylparaben",
@@ -11129,7 +11129,7 @@
         ]
     },
     {
-        "compound": "paracetamol",
+        "ingredient": "paracetamol",
         "derivedNames": [
             "222 AF",
             "4'-Hydroxyacetanilide",
@@ -11547,7 +11547,7 @@
         ]
     },
     {
-        "compound": "parthenolide",
+        "ingredient": "parthenolide",
         "derivedNames": [
             "(-)-Parthenolide",
             "4,5-alpha-Epoxy-6-beta-hydroxygermacra-1(10),11(13)-dien",
@@ -11557,7 +11557,7 @@
         ]
     },
     {
-        "compound": "patent blue-vf",
+        "ingredient": "patent blue-vf",
         "derivedNames": [
             "(4-(alpha-(4-Diethylaminophenyl)-2,4-disulfobenzyliden)-2,5-cyclohexadienylden)diethylammoniumhy droxid, inneres salz, natriumsalz",
             "1085 Blue",
@@ -11643,7 +11643,7 @@
         ]
     },
     {
-        "compound": "pectin",
+        "ingredient": "pectin",
         "derivedNames": [
             "CCRIS 3935",
             "Citrus pectin",
@@ -11665,11 +11665,11 @@
         ]
     },
     {
-        "compound": "pediatrics",
+        "ingredient": "pediatrics",
         "derivedNames": []
     },
     {
-        "compound": "penicillamine",
+        "ingredient": "penicillamine",
         "derivedNames": [
             "Penicillamine",
             "dl-Penicillamine",
@@ -11681,7 +11681,7 @@
         ]
     },
     {
-        "compound": "pentaerythritoltriacrylat (peta)",
+        "ingredient": "pentaerythritoltriacrylat (peta)",
         "derivedNames": [
             "Acrylic acid, triester with pentaerythritol",
             "Aronix M 305",
@@ -11704,7 +11704,7 @@
         ]
     },
     {
-        "compound": "pet",
+        "ingredient": "pet",
         "derivedNames": [
             "Caswell No. 645A",
             "Cosmoline",
@@ -11743,13 +11743,13 @@
         ]
     },
     {
-        "compound": "phenacetine",
+        "ingredient": "phenacetine",
         "derivedNames": [
             "N-(4-ethoxyphenyl)acetamide"
         ]
     },
     {
-        "compound": "phenazone",
+        "ingredient": "phenazone",
         "derivedNames": [
             "1,2-Dihydro-1,5-dimethyl-2-phenyl-3Hpyrazol-3-one",
             "1-Phenyl-2,3-dimethyl-5-pyrazolone",
@@ -11797,7 +11797,7 @@
         ]
     },
     {
-        "compound": "phenol-formaldehyde resin",
+        "ingredient": "phenol-formaldehyde resin",
         "derivedNames": [
             "Formaldehyde, phenol polymer",
             "Paraformaldehyde, formaldehyde, phenol polymer",
@@ -11809,7 +11809,7 @@
         ]
     },
     {
-        "compound": "phenolphthalein",
+        "ingredient": "phenolphthalein",
         "derivedNames": [
             "3,3-Bis(4-hydroxyphenyl)-1(3H)-isobenzofuranone",
             "3,3-Bis(4-hydroxyphenyl)phthalide",
@@ -11866,7 +11866,7 @@
         ]
     },
     {
-        "compound": "phenoxyethanol",
+        "ingredient": "phenoxyethanol",
         "derivedNames": [
             "1-Hydroxy-2-phenoxyethane",
             "2-Fenoxyethanol",
@@ -11908,7 +11908,7 @@
         ]
     },
     {
-        "compound": "phenyl benzimidazolesulfonic acid",
+        "ingredient": "phenyl benzimidazolesulfonic acid",
         "derivedNames": [
             "1H-Benzimidazole-5-sulfonic acid-2-phenyl-",
             "2-Phenylbenzimidazole-5-sulfonic acid",
@@ -11917,7 +11917,7 @@
         ]
     },
     {
-        "compound": "phenyl glycidyl ether",
+        "ingredient": "phenyl glycidyl ether",
         "derivedNames": [
             "(+/-)-(2,3-Epoxypropyl)phenylether",
             "(Phenoxymethyl)oxirane",
@@ -11960,7 +11960,7 @@
         ]
     },
     {
-        "compound": "phenyl salicylate",
+        "ingredient": "phenyl salicylate",
         "derivedNames": [
             "2-Phenoxycarbonylphenol",
             "4-10-00-00154 (Beilstein Handbook Reference)",
@@ -11980,7 +11980,7 @@
         ]
     },
     {
-        "compound": "phenylbutazone",
+        "ingredient": "phenylbutazone",
         "derivedNames": [
             "'Esteve'",
             "1,2-Diphenyl-3,5-dioxo-4-butylpyrazolidine",
@@ -12134,7 +12134,7 @@
         ]
     },
     {
-        "compound": "phenylephrine hydrochloride",
+        "ingredient": "phenylephrine hydrochloride",
         "derivedNames": [
             "Anaplex HD",
             "Benzedrex Nasal Spray, Regular",
@@ -12163,7 +12163,7 @@
         ]
     },
     {
-        "compound": "phenylisocyanate",
+        "ingredient": "phenylisocyanate",
         "derivedNames": [
             "AI3-28250",
             "Benzene, isocyanato-",
@@ -12184,7 +12184,7 @@
         ]
     },
     {
-        "compound": "phenylmercuric acetate",
+        "ingredient": "phenylmercuric acetate",
         "derivedNames": [
             "(Acetato)phenylmercury",
             "(Acetato-O)phenylmercury",
@@ -12311,7 +12311,7 @@
         ]
     },
     {
-        "compound": "phenylmercuric nitrate",
+        "ingredient": "phenylmercuric nitrate",
         "derivedNames": [
             "BRN 3945322",
             "Caswell No. 657I",
@@ -12342,7 +12342,7 @@
         ]
     },
     {
-        "compound": "piketoprofen",
+        "ingredient": "piketoprofen",
         "derivedNames": [
             "Piketoprofen",
             "Piketoprofen [INN]",
@@ -12360,7 +12360,7 @@
         ]
     },
     {
-        "compound": "pilocarpine hydrochloride",
+        "ingredient": "pilocarpine hydrochloride",
         "derivedNames": [
             "Anaplex HD",
             "Benzedrex Nasal Spray, Regular",
@@ -12389,13 +12389,13 @@
         ]
     },
     {
-        "compound": "pindolol",
+        "ingredient": "pindolol",
         "derivedNames": [
             "(RS)-1-(1H-indol-4-yloxy)-3-(isopropylamino)propan-2-ol (IUPAC name)"
         ]
     },
     {
-        "compound": "pine tar",
+        "ingredient": "pine tar",
         "derivedNames": [
             "Caswell No. 666",
             "EINECS 232-374-8",
@@ -12404,7 +12404,7 @@
         ]
     },
     {
-        "compound": "piperazine",
+        "ingredient": "piperazine",
         "derivedNames": [
             "AI3-26675",
             "Arpezine",
@@ -12416,13 +12416,13 @@
         ]
     },
     {
-        "compound": "piroxicam",
+        "ingredient": "piroxicam",
         "derivedNames": [
             "(8E)-8-[hydroxy-(pyridin-2-ylamino)methylidene]-9-methyl-10,10-dioxo-10λ6-thia-9-azabicyclo[4.4.0]deca-1,3,5-trien-7-one (IUPAC name)"
         ]
     },
     {
-        "compound": "platine chloride",
+        "ingredient": "platine chloride",
         "derivedNames": [
             "Platine chloride",
             "PtCl",
@@ -12431,7 +12431,7 @@
         ]
     },
     {
-        "compound": "polidocanol",
+        "ingredient": "polidocanol",
         "derivedNames": [
             "EINECS 221-284-4",
             "Nonaethylene glycol monododecyl ether",
@@ -12440,7 +12440,7 @@
         ]
     },
     {
-        "compound": "polyethylene glycol ointment",
+        "ingredient": "polyethylene glycol ointment",
         "derivedNames": [
             "1,2-Ethanediol homopolymer",
             "Alcox E 30",
@@ -12524,7 +12524,7 @@
         ]
     },
     {
-        "compound": "polyethylene glycol-400",
+        "ingredient": "polyethylene glycol-400",
         "derivedNames": [
             "1,2-Ethanediol homopolymer",
             "Alcox E 30",
@@ -12608,7 +12608,7 @@
         ]
     },
     {
-        "compound": "polymyxin-b-sulphate",
+        "ingredient": "polymyxin-b-sulphate",
         "derivedNames": [
             "Aerosporin",
             "EINECS 215-774-7",
@@ -12619,7 +12619,7 @@
         ]
     },
     {
-        "compound": "povidone iodine",
+        "ingredient": "povidone iodine",
         "derivedNames": [
             "1-Ethenyl-2-pyrrolidinone homopolymer compound with iodine",
             "1-Vinyl-2-pyrrolidinone polymer, compd. with iodine",
@@ -12673,7 +12673,7 @@
         ]
     },
     {
-        "compound": "potassium dichromate",
+        "ingredient": "potassium dichromate",
         "derivedNames": [
             "Potassiumdichromate",
             "Dipotassiumdichromate",
@@ -12685,7 +12685,7 @@
         ]
     },
     {
-        "compound": "potassium dicyanoaurate",
+        "ingredient": "potassium dicyanoaurate",
         "derivedNames": [
             "Aurate(1-), bis(cyano-c)-, potassium",
             "EINECS 237-748-4",
@@ -12696,7 +12696,7 @@
         ]
     },
     {
-        "compound": "potassiumchromate-(iii)-sulphate",
+        "ingredient": "potassiumchromate-(iii)-sulphate",
         "derivedNames": [
             "0% Basicity chrome alum",
             "CCRIS 7532",
@@ -12719,7 +12719,7 @@
         ]
     },
     {
-        "compound": "prednisolone",
+        "ingredient": "prednisolone",
         "derivedNames": [
             "(11beta)-11,17,21-Trihydroxypregna-1,4-diene-3,20-dione",
             "1,2-Dehydrohydrocortisone",
@@ -12827,13 +12827,13 @@
         ]
     },
     {
-        "compound": "primin",
+        "ingredient": "primin",
         "derivedNames": [
             "2-Methoxy-6-n-pentyl-p-benzoquinone"
         ]
     },
     {
-        "compound": "procaine-hcl",
+        "ingredient": "procaine-hcl",
         "derivedNames": [
             "2-(Diethylamino)ethyl paminobenzoate monohydrochloride",
             "2-Diethylaminoethyl paminobenzoate hydrochloride",
@@ -12880,7 +12880,7 @@
         ]
     },
     {
-        "compound": "promethazine-hcl",
+        "ingredient": "promethazine-hcl",
         "derivedNames": [
             "(+-)-10-(2-(Dimethylamino)propyl)phenothiazine monohydrochloride",
             "10-(2-(Dimethylamino)propyl)phenothiazine monohydrochloride",
@@ -12957,7 +12957,7 @@
         ]
     },
     {
-        "compound": "propanolol-hcl",
+        "ingredient": "propanolol-hcl",
         "derivedNames": [
             "(+-)-1-(Isopropylamino)-3-(1-naphthyloxy)-2-propanol hydrochloride",
             "1-(1-Naphthyloxy)-2-hydroxy-3-isopropylaminopropane hydrochloride",
@@ -13065,7 +13065,7 @@
         ]
     },
     {
-        "compound": "propolis",
+        "ingredient": "propolis",
         "derivedNames": [
             "Bee bread",
             "Bee glue",
@@ -13074,7 +13074,7 @@
         ]
     },
     {
-        "compound": "propyl gallate",
+        "ingredient": "propyl gallate",
         "derivedNames": [
             "3,4,5-Trihydroxybenzene-1-propylcarboxylate",
             "3,4,5-Trihydroxybenzoic acid npropyl ester",
@@ -13103,7 +13103,7 @@
         ]
     },
     {
-        "compound": "propyl-p-hydroxybenzoate",
+        "ingredient": "propyl-p-hydroxybenzoate",
         "derivedNames": [
             "4-10-00-00374 (Beilstein Handbook Reference)",
             "4-Hydroxybenzoic acid propyl ester",
@@ -13159,7 +13159,7 @@
         ]
     },
     {
-        "compound": "propylene glycol",
+        "ingredient": "propylene glycol",
         "derivedNames": [
             "Propylene glycol",
             "1,2-Propanediol",
@@ -13172,7 +13172,7 @@
         ]
     },
     {
-        "compound": "propyphenazone",
+        "ingredient": "propyphenazone",
         "derivedNames": [
             "1-Phenyl-2,3-dimethyl-4-isopropyl-3-pyrazolin-5-one",
             "1-Phenyl-2,3-dimethyl-4-isopropylpyrazol-5-one",
@@ -13202,7 +13202,7 @@
         ]
     },
     {
-        "compound": "pyrogallol",
+        "ingredient": "pyrogallol",
         "derivedNames": [
             "1,2,3-Benzenetriol",
             "CI 76515",
@@ -13229,7 +13229,7 @@
         ]
     },
     {
-        "compound": "quaternium 15 (dowicil 200)",
+        "ingredient": "quaternium 15 (dowicil 200)",
         "derivedNames": [
             "Quaternium-15",
             "chloroallyl methenamine chloride",
@@ -13242,7 +13242,7 @@
         ]
     },
     {
-        "compound": "quaternium 15",
+        "ingredient": "quaternium 15",
         "derivedNames": [
             "Quaternium-15",
             "chloroallyl methenamine chloride",
@@ -13255,7 +13255,7 @@
         ]
     },
     {
-        "compound": "quinidine sulphate",
+        "ingredient": "quinidine sulphate",
         "derivedNames": [
             "(9S)-6'-Methoxycinchonan-9-ol sulfate (2:1) (salt)",
             "Auriquin",
@@ -13281,7 +13281,7 @@
         ]
     },
     {
-        "compound": "quinine sulfate",
+        "ingredient": "quinine sulfate",
         "derivedNames": [
             "Quinine sulfate",
             "UNII-M4XCR57IWG",
@@ -13305,7 +13305,7 @@
         ]
     },
     {
-        "compound": "quinoline mix",
+        "ingredient": "quinoline mix",
         "derivedNames": [
             "Clioquinol",
             "Chlorquinaldol",
@@ -13316,7 +13316,7 @@
         ]
     },
     {
-        "compound": "quinoline yellow",
+        "ingredient": "quinoline yellow",
         "derivedNames": [
             "2-(2-Quinolyl)-1,3-indandione disulfonic acid disodium salt",
             "Acid Yellow 3",
@@ -13357,7 +13357,7 @@
         ]
     },
     {
-        "compound": "resorcinol-formaldehyde-resin",
+        "ingredient": "resorcinol-formaldehyde-resin",
         "derivedNames": [
             "1,3-Benzenediol",
             "1,3-Dihydroxybenzene",
@@ -13457,7 +13457,7 @@
         ]
     },
     {
-        "compound": "resorcinol",
+        "ingredient": "resorcinol",
         "derivedNames": [
             "1,3-Benzenediol",
             "1,3-Dihydroxybenzene",
@@ -13506,7 +13506,7 @@
         ]
     },
     {
-        "compound": "rhodium chloride",
+        "ingredient": "rhodium chloride",
         "derivedNames": [
             "Rhodium chloride trihydrate",
             "Rhodium trichloride trihydrate",
@@ -13515,14 +13515,14 @@
         ]
     },
     {
-        "compound": "ruthenium",
+        "ingredient": "ruthenium",
         "derivedNames": [
             "EINECS 231-127-1",
             "Ruthenium"
         ]
     },
     {
-        "compound": "saccharin",
+        "ingredient": "saccharin",
         "derivedNames": [
             "1,2-Benzisothiazol-3(2H)-one 1,1-dioxide",
             "1,2-Benzisothiazolin-3-one 1,1-dioxide",
@@ -13590,7 +13590,7 @@
         ]
     },
     {
-        "compound": "salicylaldehyde",
+        "ingredient": "salicylaldehyde",
         "derivedNames": [
             "2-Formylphenol",
             "2-Hydroxybenzaldehyde",
@@ -13614,7 +13614,7 @@
         ]
     },
     {
-        "compound": "salicylamide",
+        "ingredient": "salicylamide",
         "derivedNames": [
             "2-Carbamoylphenol",
             "2-Carboxamidophenol",
@@ -13684,7 +13684,7 @@
         ]
     },
     {
-        "compound": "salicylic acid",
+        "ingredient": "salicylic acid",
         "derivedNames": [
             "2-Carboxyphenol",
             "2-Hydroxybenzenecarboxylic acid",
@@ -13744,7 +13744,7 @@
         ]
     },
     {
-        "compound": "samarium (iii) chloride",
+        "ingredient": "samarium (iii) chloride",
         "derivedNames": [
             "Samarium(III) chloride",
             "Samarium trichloride",
@@ -13754,13 +13754,13 @@
         ]
     },
     {
-        "compound": "sandalwood oil",
+        "ingredient": "sandalwood oil",
         "derivedNames": [
             "Coming Soon"
         ]
     },
     {
-        "compound": "sesquiterpene lactone mix",
+        "ingredient": "sesquiterpene lactone mix",
         "derivedNames": [
             "Alantolactone",
             "CAS RN:546-43-0",
@@ -13774,7 +13774,7 @@
         ]
     },
     {
-        "compound": "shellac",
+        "ingredient": "shellac",
         "derivedNames": [
             "Candy glaze",
             "Confectioner's glaze",
@@ -13788,7 +13788,7 @@
         ]
     },
     {
-        "compound": "silver colloidal",
+        "ingredient": "silver colloidal",
         "derivedNames": [
             "Argentum crede",
             "Collargol",
@@ -13796,7 +13796,7 @@
         ]
     },
     {
-        "compound": "silver nitrate",
+        "ingredient": "silver nitrate",
         "derivedNames": [
             "Argenti nitras",
             "Argerol",
@@ -13824,7 +13824,7 @@
         ]
     },
     {
-        "compound": "sodium alginate",
+        "ingredient": "sodium alginate",
         "derivedNames": [
             "AI3-19772",
             "Algiline",
@@ -13891,7 +13891,7 @@
         ]
     },
     {
-        "compound": "sodium benzoate",
+        "ingredient": "sodium benzoate",
         "derivedNames": [
             "AI3-07835",
             "Antimol",
@@ -13914,7 +13914,7 @@
         ]
     },
     {
-        "compound": "sodium diphosphate",
+        "ingredient": "sodium diphosphate",
         "derivedNames": [
             "Anhydrous tetrasodium pyrophosphate",
             "Caswell No. 847",
@@ -13942,7 +13942,7 @@
         ]
     },
     {
-        "compound": "sodium disulphite",
+        "ingredient": "sodium disulphite",
         "derivedNames": [
             "AI3-51684",
             "CCRIS 3951",
@@ -13970,7 +13970,7 @@
         ]
     },
     {
-        "compound": "sodium formiate",
+        "ingredient": "sodium formiate",
         "derivedNames": [
             "CCRIS 1037",
             "EINECS 205-488-0",
@@ -13986,7 +13986,7 @@
         ]
     },
     {
-        "compound": "sodium glutamate",
+        "ingredient": "sodium glutamate",
         "derivedNames": [
             "AI3-18393",
             "Accent",
@@ -14032,7 +14032,7 @@
         ]
     },
     {
-        "compound": "sodium lauryl sulphate (sls)",
+        "ingredient": "sodium lauryl sulphate (sls)",
         "derivedNames": [
             "AI3-00356",
             "Akyposal SDS",
@@ -14189,7 +14189,7 @@
         ]
     },
     {
-        "compound": "sodium nitrite",
+        "ingredient": "sodium nitrite",
         "derivedNames": [
             "CCRIS 558",
             "Caswell No. 781",
@@ -14217,7 +14217,7 @@
         ]
     },
     {
-        "compound": "sodium thiosulfoaurate (gold)",
+        "ingredient": "sodium thiosulfoaurate (gold)",
         "derivedNames": [
             "Gold sodium thiosulfate",
             "Thiosulfuric acid, gold(1+) sodium salt (2:1:3)",
@@ -14227,14 +14227,14 @@
         ]
     },
     {
-        "compound": "sodium-2-pyridinethiol-1-oxide (sodium-omadine)",
+        "ingredient": "sodium-2-pyridinethiol-1-oxide (sodium-omadine)",
         "derivedNames": [
             "Sodium Omadine",
             "Sodium-2-pyridinethiol-1-oxide"
         ]
     },
     {
-        "compound": "sorbic acid",
+        "ingredient": "sorbic acid",
         "derivedNames": [
             "(E,E)-2,4-Hexadienoic acid",
             "(E,E)-Sorbic acid; Sorbic acid",
@@ -14265,7 +14265,7 @@
         ]
     },
     {
-        "compound": "sorbitan monooleate (span 80)",
+        "ingredient": "sorbitan monooleate (span 80)",
         "derivedNames": [
             "Alkamuls SMO",
             "Arlacel 80",
@@ -14328,7 +14328,7 @@
         ]
     },
     {
-        "compound": "sorbitan sesquioleate",
+        "ingredient": "sorbitan sesquioleate",
         "derivedNames": [
             "Anhydrohexitol sesquioleate",
             "Arlacel 83",
@@ -14364,7 +14364,7 @@
         ]
     },
     {
-        "compound": "stearyl alcohol",
+        "ingredient": "stearyl alcohol",
         "derivedNames": [
             "1-0ctadecanol",
             "1-Hydroxyoctadecane",
@@ -14411,7 +14411,7 @@
         ]
     },
     {
-        "compound": "streptomycin sulphate",
+        "ingredient": "streptomycin sulphate",
         "derivedNames": [
             "AI3-50158",
             "AS-15",
@@ -14449,7 +14449,7 @@
         ]
     },
     {
-        "compound": "strontium chloride",
+        "ingredient": "strontium chloride",
         "derivedNames": [
             "Strontium",
             "Strontium, elemental",
@@ -14465,7 +14465,7 @@
         ]
     },
     {
-        "compound": "sulfanilamide",
+        "ingredient": "sulfanilamide",
         "derivedNames": [
             "4-14-00-02658 (Beilstein Handbook Reference)",
             "4-Aminobenzenesulfonamide",
@@ -14587,7 +14587,7 @@
         ]
     },
     {
-        "compound": "sulphur, precipitated",
+        "ingredient": "sulphur, precipitated",
         "derivedNames": [
             "AN-Sulfur Colloid Kit",
             "Agri-Sul",
@@ -14688,7 +14688,7 @@
         ]
     },
     {
-        "compound": "tantal",
+        "ingredient": "tantal",
         "derivedNames": [
             "EINECS 231-135-5",
             "HSDB 2533",
@@ -14696,7 +14696,7 @@
         ]
     },
     {
-        "compound": "tartrazine",
+        "ingredient": "tartrazine",
         "derivedNames": [
             "1-(4-Sulfophenyl)-4-((4-sulfophenyl)azo)-1H-pyrazole-3-carboxylic",
             "1310 Yellow",
@@ -14844,7 +14844,7 @@
         ]
     },
     {
-        "compound": "tea tree oil, oxidized",
+        "ingredient": "tea tree oil, oxidized",
         "derivedNames": [
             "Tea tree oil",
             "CCRIS 9084",
@@ -14856,11 +14856,11 @@
         ]
     },
     {
-        "compound": "teledermatology",
+        "ingredient": "teledermatology",
         "derivedNames": []
     },
     {
-        "compound": "tellurium tetrachloride",
+        "ingredient": "tellurium tetrachloride",
         "derivedNames": [
             "Tellurium tetrachloride",
             "Telluric chloride",
@@ -14880,7 +14880,7 @@
         ]
     },
     {
-        "compound": "tert-butylhydroquinone",
+        "ingredient": "tert-butylhydroquinone",
         "derivedNames": [
             "1,4-Benzenediol (1,1-dimethylethyl)-",
             "1,4-Benzenediol, 2-(1,1-dimethylethyl)-",
@@ -14912,7 +14912,7 @@
         ]
     },
     {
-        "compound": "tetracaine-hcl",
+        "ingredient": "tetracaine-hcl",
         "derivedNames": [
             "2-(Dimethylamino)ethyl p-(butylamino)benzoate",
             "2-Dimethylaminoethylester kyseliny p-butylaminobenzoove",
@@ -14954,7 +14954,7 @@
         ]
     },
     {
-        "compound": "tetracycline-hcl",
+        "ingredient": "tetracycline-hcl",
         "derivedNames": [
             "4S,4aS,5aS,12aS)-4-(Dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-2-naphthacenecarboxamide",
             "2-Naphthacenecarboxamide, 4-(dimethylamino)-1,4,4a,5,5a,6,11,12aoctahydro-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-",
@@ -15029,7 +15029,7 @@
         ]
     },
     {
-        "compound": "tetraethylthiuram disulphide",
+        "ingredient": "tetraethylthiuram disulphide",
         "derivedNames": [
             "1,1'-Dithiobis(N,Ndiethylthioformamide)",
             "AI3-27340",
@@ -15154,7 +15154,7 @@
         ]
     },
     {
-        "compound": "tetrahydrofurfuryl methacrylate",
+        "ingredient": "tetrahydrofurfuryl methacrylate",
         "derivedNames": [
             "2-Propenoic acid, 2-methyl-, (tetrahydro-2-furanyl)methyl ester",
             "AI3-08497",
@@ -15169,7 +15169,7 @@
         ]
     },
     {
-        "compound": "tetramethylthiuram disulphide",
+        "ingredient": "tetramethylthiuram disulphide",
         "derivedNames": [
             "4-04-00-00242 (Beilstein Handbook Reference)",
             "AI3-00987",
@@ -15332,7 +15332,7 @@
         ]
     },
     {
-        "compound": "tetramethylthiuram monosulphide (tmtm)",
+        "ingredient": "tetramethylthiuram monosulphide (tmtm)",
         "derivedNames": [
             "4-04-00-00238 (Beilstein Handbook Reference)",
             "AI3-00984",
@@ -15374,7 +15374,7 @@
         ]
     },
     {
-        "compound": "textile dye mix [b]",
+        "ingredient": "textile dye mix [b]",
         "derivedNames": [
             "Ethanol,2,2’-[[3-methyl-4-[(4-nitrophenyl)azo]phenyl]imino]bis",
             "2,2’-[[3-methyl-4-[(4-nitrophenyl)azo]phenyl]imino]bisethanol",
@@ -15548,7 +15548,7 @@
         ]
     },
     {
-        "compound": "thiamin nitrate",
+        "ingredient": "thiamin nitrate",
         "derivedNames": [
             "3-((4-Amino-2-methyl-5-pyrimidinyl)methyl)-5-(2-hydroxyethyl)-4-methylthiazolium nitrate",
             "3-(4-Amino-2-methylpyrimidyl-5-methyl)-4-methyl-5,beta-",
@@ -15568,7 +15568,7 @@
         ]
     },
     {
-        "compound": "thimerosal",
+        "ingredient": "thimerosal",
         "derivedNames": [
             "((o-Carboxyphenyl)thio)ethylmercury sodium salt",
             "Aeroaid spray",
@@ -15633,7 +15633,7 @@
         ]
     },
     {
-        "compound": "thiourea",
+        "ingredient": "thiourea",
         "derivedNames": [
             "Thiourea",
             "2-Thiopseudourea",
@@ -15660,7 +15660,7 @@
         ]
     },
     {
-        "compound": "thiuram mix (a)",
+        "ingredient": "thiuram mix (a)",
         "derivedNames": [
             "Tetramethylthiuram monosulfide",
             "bis(dimethylthiocarbamoyl) sulfide",
@@ -15685,7 +15685,7 @@
         ]
     },
     {
-        "compound": "thiuram mix (b)",
+        "ingredient": "thiuram mix (b)",
         "derivedNames": [
             "Tetramethylthiuram monosulfide",
             "bis(dimethylthiocarbamoyl) sulfide",
@@ -15710,7 +15710,7 @@
         ]
     },
     {
-        "compound": "thymol",
+        "ingredient": "thymol",
         "derivedNames": [
             "1-Hydroxy-5-methyl-2-isopropylbenzene",
             "1-Methyl-3-hydroxy-4-isopropylbenzene",
@@ -15752,7 +15752,7 @@
         ]
     },
     {
-        "compound": "tin (ii) chloride",
+        "ingredient": "tin (ii) chloride",
         "derivedNames": [
             "AI3-51686",
             "C.I. 77864",
@@ -15774,7 +15774,7 @@
         ]
     },
     {
-        "compound": "titanium (iv) oxide",
+        "ingredient": "titanium (iv) oxide",
         "derivedNames": [
             "1385RN 59",
             "1700 White",
@@ -15932,7 +15932,7 @@
         ]
     },
     {
-        "compound": "titanium",
+        "ingredient": "titanium",
         "derivedNames": [
             "75A",
             "ATI 24",
@@ -15971,7 +15971,7 @@
         ]
     },
     {
-        "compound": "tixocortol-21-pivalate",
+        "ingredient": "tixocortol-21-pivalate",
         "derivedNames": [
             "Tixocortol 21-pivalate",
             "Tixocortol pivalate",
@@ -15984,7 +15984,7 @@
         ]
     },
     {
-        "compound": "tobramycin",
+        "ingredient": "tobramycin",
         "derivedNames": [
             "Tobramycin",
             "Nebramycin 6",
@@ -16041,7 +16041,7 @@
         ]
     },
     {
-        "compound": "tolu balsam",
+        "ingredient": "tolu balsam",
         "derivedNames": [
             "Tolu balsam clear",
             "Tolu balsam extract",
@@ -16049,7 +16049,7 @@
         ]
     },
     {
-        "compound": "toluene 2,4-diisocyanate",
+        "ingredient": "toluene 2,4-diisocyanate",
         "derivedNames": [
             "2,4-Diisocyanato-1-methylbenzene",
             "2,4-Diisocyanatotoluene",
@@ -16102,7 +16102,7 @@
         ]
     },
     {
-        "compound": "tosylamide/formaldehyde resin",
+        "ingredient": "tosylamide/formaldehyde resin",
         "derivedNames": [
             "4-Toluenesulfonamide-formaldehyde resin",
             "Benzenesulfonamide, 4-methyl-, polymer with formaldehyde",
@@ -16112,13 +16112,13 @@
         ]
     },
     {
-        "compound": "triamcinoloneacetonide",
+        "ingredient": "triamcinoloneacetonide",
         "derivedNames": [
             "triamcinolone acetonide"
         ]
     },
     {
-        "compound": "triclosan",
+        "ingredient": "triclosan",
         "derivedNames": [
             "2,4,4’-Trichloro-2’-hydroxydiphenyl ether",
             "5-Chloro-2-(2,4-dichlorophenoxy)phenol",
@@ -16144,7 +16144,7 @@
         ]
     },
     {
-        "compound": "tricresyl phosphate",
+        "ingredient": "tricresyl phosphate",
         "derivedNames": [
             "AI3-16771",
             "CCRIS 5947",
@@ -16183,7 +16183,7 @@
         ]
     },
     {
-        "compound": "triethamine",
+        "ingredient": "triethamine",
         "derivedNames": [
             "2,2',2''-Nitrilotriethanol",
             "2,2',2'-Nitrilotriethanol",
@@ -16213,7 +16213,7 @@
         ]
     },
     {
-        "compound": "triethyleneglycol-dimethacrylate",
+        "ingredient": "triethyleneglycol-dimethacrylate",
         "derivedNames": [
             "1,2-Bis(2-(methacryloyloxy)ethoxy)ethane",
             "2-Propenoic acid, 2-methyl-, 1,2-ethanediylbis(oxy-2,1-ethanediyl) ester",
@@ -16239,7 +16239,7 @@
         ]
     },
     {
-        "compound": "triethylenetetramine",
+        "ingredient": "triethylenetetramine",
         "derivedNames": [
             "1,2-Ethanediamine, N,N'-bis(2-aminoethyl)-",
             "1,4,7,10-Tetraazadecane",
@@ -16273,7 +16273,7 @@
         ]
     },
     {
-        "compound": "triphenyl phosphate",
+        "ingredient": "triphenyl phosphate",
         "derivedNames": [
             "4-06-00-00720 (Beilstein Handbook Reference)",
             "AI3-04491",
@@ -16297,7 +16297,7 @@
         ]
     },
     {
-        "compound": "trolamine salicylate",
+        "ingredient": "trolamine salicylate",
         "derivedNames": [
             "Triethanolamine salicylate",
             "TROLAMINE SALICYLATE",
@@ -16320,7 +16320,7 @@
         ]
     },
     {
-        "compound": "tungstic acid, sodium salt dihydrate",
+        "ingredient": "tungstic acid, sodium salt dihydrate",
         "derivedNames": [
             "Wolfram",
             "Tungsten",
@@ -16330,13 +16330,13 @@
         ]
     },
     {
-        "compound": "turpentine peroxide",
+        "ingredient": "turpentine peroxide",
         "derivedNames": [
             "No Ingredients Listed."
         ]
     },
     {
-        "compound": "tween 40",
+        "ingredient": "tween 40",
         "derivedNames": [
             "CCRIS 701",
             "Crill 7",
@@ -16362,7 +16362,7 @@
         ]
     },
     {
-        "compound": "tween 80",
+        "ingredient": "tween 80",
         "derivedNames": [
             "Akamuls PSMO 20",
             "Alkamuls T 80",
@@ -16444,7 +16444,7 @@
         ]
     },
     {
-        "compound": "urea formaldehyde resin",
+        "ingredient": "urea formaldehyde resin",
         "derivedNames": [
             "Formaldehyde, urea polymer",
             "Gabrite",
@@ -16482,7 +16482,7 @@
         ]
     },
     {
-        "compound": "usnic acid",
+        "ingredient": "usnic acid",
         "derivedNames": [
             "(+-)-Uanic acid",
             "2,6-Diacetyl-7,9-dihydroxy-8,9b",
@@ -16504,7 +16504,7 @@
         ]
     },
     {
-        "compound": "vanadium",
+        "ingredient": "vanadium",
         "derivedNames": [
             "EINECS 231-171-1",
             "HSDB 1022",
@@ -16512,7 +16512,7 @@
         ]
     },
     {
-        "compound": "vanilin",
+        "ingredient": "vanilin",
         "derivedNames": [
             "2-Methoxy-4-formylphenol",
             "3-Methoxy-4-hydroxybenzaldehyde",
@@ -16546,13 +16546,13 @@
         ]
     },
     {
-        "compound": "venice turpentine",
+        "ingredient": "venice turpentine",
         "derivedNames": [
             "Turpentine, Venice"
         ]
     },
     {
-        "compound": "wolfram",
+        "ingredient": "wolfram",
         "derivedNames": [
             "Wolfram",
             "Tungsten",
@@ -16560,7 +16560,7 @@
         ]
     },
     {
-        "compound": "wood tar mix",
+        "ingredient": "wood tar mix",
         "derivedNames": [
             "Caswell No. 904",
             "EINECS 232-450-0",
@@ -16577,7 +16577,7 @@
         ]
     },
     {
-        "compound": "wool alcohols",
+        "ingredient": "wool alcohols",
         "derivedNames": [
             "Alkoholes lanae",
             "EINECS 232-430-1",
@@ -16588,7 +16588,7 @@
         ]
     },
     {
-        "compound": "wool fat",
+        "ingredient": "wool fat",
         "derivedNames": [
             "Adeps Lanae ahydricus",
             "Adeps lanae",
@@ -16653,7 +16653,7 @@
         ]
     },
     {
-        "compound": "ytterbium sulfate",
+        "ingredient": "ytterbium sulfate",
         "derivedNames": [
             "Yttria",
             "YTTERBIUM SULFATE",
@@ -16667,7 +16667,7 @@
         ]
     },
     {
-        "compound": "yttrium oxide",
+        "ingredient": "yttrium oxide",
         "derivedNames": [
             "Yttria",
             "Yttrium trioxide",
@@ -16684,7 +16684,7 @@
         ]
     },
     {
-        "compound": "zinc chloride",
+        "ingredient": "zinc chloride",
         "derivedNames": [
             "AI3-04470",
             "Butter of zinc",
@@ -16716,7 +16716,7 @@
         ]
     },
     {
-        "compound": "zinc powder",
+        "ingredient": "zinc powder",
         "derivedNames": [
             "Asarco L 15",
             "Blue powder",
@@ -16737,7 +16737,7 @@
         ]
     },
     {
-        "compound": "zinc pyrithione",
+        "ingredient": "zinc pyrithione",
         "derivedNames": [
             "2(1H)-Pyridinethione, 1-hydroxy-, zinc complex",
             "2-Mercaptopyridine 1-oxide zinc salt",
@@ -16802,14 +16802,14 @@
         ]
     },
     {
-        "compound": "zinc sulphate",
+        "ingredient": "zinc sulphate",
         "derivedNames": [
             "UNII-PTX099XSF1",
             "Zinc sulfate monohydrate"
         ]
     },
     {
-        "compound": "zirconium (iv) oxide",
+        "ingredient": "zirconium (iv) oxide",
         "derivedNames": [
             "AI3-29087",
             "C.I. 77990",

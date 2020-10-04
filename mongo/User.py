@@ -1,26 +1,25 @@
 from exceptions.ValidatorException import ValidatorException
 from mongo.MongoDoc import MongoDoc
-from mongo.Compound import Compound
+from mongo.Ingredient import Ingredient
+from bson.objectid import ObjectId
 from mongoengine import *
 
 class User(MongoDoc):
     name = StringField(required=True)
     email = StringField(required=True)
     password = StringField(required=True)
-    priority_allergenics = ListField(ReferenceField(Compound), default=[])
-    settings = DictField()
+    priority_allergenics = ListField(ReferenceField(Ingredient), default=[])
 
-    # def plain(self):
-    #     doc_mongo = super().plain()
-    #     del doc_mongo['password']
-    #     return doc_mongo
-
-    def update(self, name=None, email=None, password=None, priority_allergenics=[], private_account=None):
+    def update(self, name=None, email=None, password=None, priority_allergenics=None):
         name = name or self.name
         email = email or self.email
         password = password or self.password
-        private_account = self.settings['private_account'] if private_account is None else private_account
-        super().update(set__name=name, set__email=email, set__password=password, set__settings__priority_allergenics=priority_allergenics, set__settings__private_account=private_account)
+        if priority_allergenics is not None:
+            priority_allergenics = [ObjectId(a['id']) for a in priority_allergenics]
+        else:
+            priority_allergenics = self.priority_allergenics
+
+        super().update(set__name=name, set__email=email, set__password=password, set__priority_allergenics=priority_allergenics)
 
     def save(self):
         user = User.objects.filter(Q(email=self.email))

@@ -1,13 +1,13 @@
 import json
-from mongo.Compound import Compound
+from mongo.Ingredient import Ingredient
 
 def sync():
-    with open(__file__.replace('app_database.py', 'compounds.json')) as json_file:
+    with open(__file__.replace('app_database.py', 'ingredients.json')) as json_file:
         data = json.load(json_file)
-        for compound_data in data:
-            compound = Compound(name=compound_data['compound'])
-            compound.save()
-            for derived_name in compound_data['derivedNames']:
-                derived_compound = Compound(name=derived_name, derived_from=compound)
-                derived_compound.save()
+        for ingredient_data in data:
+            ingredient = Ingredient(name=ingredient_data['ingredient'])
+            ingredient.save()
+            for derived_name in ingredient_data['derivedNames']:
+                derived_ingredient = Ingredient(name=derived_name, derived_from=ingredient)
+                derived_ingredient.save()
             

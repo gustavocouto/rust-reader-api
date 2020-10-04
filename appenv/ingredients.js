@@ -500,9 +500,9 @@ var text = `<div class="search-results">
             </div>`;
 
 (async () => {
-    var compoundsTasks = Array.from($(text).find('a'))
+    var ingredientsTasks = Array.from($(text).find('a'))
         .map(a => ({
-            compound: a.innerText,
+            ingredient: a.innerText,
             url: a.href
         }))
         .map(current => (async() => {
@@ -510,8 +510,8 @@ var text = `<div class="search-results">
                 .then(_ => _.text())
                 .then(_ => $(new DOMParser().parseFromString(_, 'text/html').body).find('p:contains(Avoid)+p'))
                 .then(_ => _[0] && _[0].innerText && _[0].innerText.split('•').map(e => e.replace('↵', '').trimStart(' ')));
-            return { compound: current.compound, derived_names: result || [] };
+            return { ingredient: current.ingredient, derived_names: result || [] };
         }));
-    window['compounds'] = await Promise.all(compoundsTasks.map(_ => _()));
+    window['ingredient'] = await Promise.all(ingredientsTasks.map(_ => _()));
     console.log('DONE!')
 })();
