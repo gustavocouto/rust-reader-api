@@ -34,6 +34,10 @@ def handle_invalid_usage(error):
     response.status_code = error.status_code
     return response
 
+@app.route('/api/test', methods=['GET']):
+    if request.method == 'GET':
+        return jsonify('API is ready')
+
 @app.route('/api/auth', methods=['POST'])
 def auth():
     if request.method == 'POST':
