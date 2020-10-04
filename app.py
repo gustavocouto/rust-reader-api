@@ -34,7 +34,8 @@ def handle_invalid_usage(error):
     response.status_code = error.status_code
     return response
 
-@app.route('/api/test', methods=['GET']):
+@app.route('/api/test', methods=['GET'])
+def test():
     if request.method == 'GET':
         return jsonify('API is ready')
 
