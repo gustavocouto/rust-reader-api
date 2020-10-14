@@ -7,25 +7,6 @@ def to_json(obj, target_type=None):
     plained = plain(obj, target_type)
     return jsonify(plained)
 
-# def plain(obj):
-#     if obj is None:
-#         return obj
-#     if isinstance(obj, list):
-#         return [plain(i) for i in obj]
-
-#     fields = {}
-#     for obj_field in obj:
-#         field = obj[obj_field]
-#         if isinstance(field, ObjectId):
-#             fields[obj_field] = str(field)
-#         elif isinstance(field, list):
-#             fields[obj_field] = [plain(i) for i in field]
-#         elif isinstance(field, dict) or isinstance(field, Document):
-#             fields[obj_field] = plain(field)
-#         else:
-#             fields[obj_field] = field
-#     return fields
-
 def plain(obj, target_type=None):
     def object_or_id(target, parse, parse_name):
         oid = None
@@ -66,8 +47,8 @@ def plain(obj, target_type=None):
             'id': str(target['id']),
             'name': target.get('name'),
             'email': target.get('email'),
-            'priority_allergenics': [object_or_id(p, Ingredient, 'Ingredient') for p in target.get('priority_allergenics', [])],
-            'private_account': target.get('private_account')
+            'monster_name': target.get('monster_name'),
+            'priority_allergenics': [object_or_id(p, Ingredient, 'Ingredient') for p in target.get('priority_allergenics', [])]
         }
 
     def derived_ingredients(target):

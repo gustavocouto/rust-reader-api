@@ -4,7 +4,7 @@ from mongo.Ingredient import Ingredient
 
 class IngredientRead(EmbeddedDocument):
     name = StringField(required=True)
-    accuracy = FloatField(required=True, default=0)
+    accuracy = FloatField(required=False, default=None)
     best_match = ReferenceField(Ingredient, required=False)
 
     def get(self, key, default=None):

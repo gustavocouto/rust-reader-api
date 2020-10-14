@@ -2,7 +2,7 @@ import flask
 import os
 from bson.objectid import ObjectId
 from cerberus import Validator
-from flask import request, jsonify
+from flask import request, jsonify, send_from_directory
 from flask_cors import CORS
 from mongo.User import User
 from mongo.Label import Label
@@ -16,7 +16,7 @@ from exceptions.ValidatorException import ValidatorException
 from cv2 import cv2
 from rust.Tesseract import Tesseract
 
-app = flask.Flask(__name__)
+app = flask.Flask(__name__, static_url_path='')
 CORS(app)
 connect(host='mongodb+srv://admin:admin@schoolcluster.s8zzy.gcp.mongodb.net/rustreader?retryWrites=true&w=majority')
 
@@ -39,15 +39,25 @@ def test():
     if request.method == 'GET':
         return jsonify('API is ready')
 
-@app.route('/api/auth', methods=['POST'])
+@app.route('/api/assets/<file>')
+def assets(file):
+    return send_from_directory('assets', file)
+
+@app.route('/api/auth', methods=['POST', 'PUT'])
 def auth():
     if request.method == 'POST':
         json = read_json_request()
-        user = User.objects.get(email=json['email'], password=json['password'])
-        if not user:
+        users = list(User.objects(email=json['email'], password=json['password']))
+        if len(users) == 0:
             raise ValidatorException(errors=[{'user': 'Usuário não encontrado ou senha incorreta'}])
+        user = users[0]
         json = app_mapper.plain(user)
         return jsonify({ 'token': str(user.pk), 'user': json })
+    if request.method == 'PUT':
+        json = read_json_request()
+        user = app_context.get_user()
+        user.update_password(old_password=json['old_password'], new_password=json['new_password'])
+        return jsonify(True)
 
 @app.route('/api/users', methods=['POST', 'PUT'])
 def user():
@@ -59,7 +69,7 @@ def user():
     if request.method == 'PUT':
         json = read_json_request(app_validations.user_create_schema)
         user = app_context.get_user()
-        user.update(name=json['name'], email=json['email'], priority_allergenics=json['priority_allergenics'])
+        user.update(name=json['name'], email=json['email'], monster_name=json['monster_name'], priority_allergenics=json['priority_allergenics'])
         return str(user['id'])
 
 @app.route('/api/labels', methods=['GET', 'POST'])
@@ -87,8 +97,16 @@ def get_label(label_id):
         Label.remove(label, user)
         return jsonify(True)
 
-@app.route('/api/read', methods=['POST'])
-def read():
+@app.route('/api/read-text', methods=['POST'])
+def read_text():
+    if request.method == 'POST':
+        image = app_context.read_image()
+        tesseract = Tesseract(image)
+        text = tesseract.get_text()
+        return jsonify(text)
+
+@app.route('/api/read-ingredients', methods=['POST'])
+def read_ingredients():
     if request.method == 'POST':
         image = app_context.read_image()
         tesseract = Tesseract(image)
@@ -108,7 +126,7 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
 
-# file_path = __file__.replace('app.py', 'rotulo.jpg')
+# file_path = __file__.replace('app.py', 'rotulo3.jpg')
 # image = cv2.imread(file_path)
 # tesseract = Tesseract(image)
 # # okok = tesseract.get_text()

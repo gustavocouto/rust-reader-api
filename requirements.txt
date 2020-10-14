@@ -14,6 +14,7 @@ mccabe==0.6.1
 mongoengine==0.20.0
 numpy==1.19.0
 opencv-python==4.2.0.34
+opencv-python-headless==4.4.0.44
 Pillow==7.2.0
 protobuf==3.12.2
 pycodestyle==2.6.0
@@ -27,3 +28,4 @@ six==1.15.0
 toml==0.10.1
 Werkzeug==1.0.1
 wrapt==1.12.1
+dnspython==2.0.0

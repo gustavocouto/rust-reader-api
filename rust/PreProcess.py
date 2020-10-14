@@ -13,22 +13,26 @@ def remove_noise(image):
 
 #thresholding
 def thresholding(image, fact):
-    thre = cv2.threshold(image, fact, 255, cv2.THRESH_BINARY, cv2.THRESH_OTSU)[1]
+    # thre = cv2.threshold(image, fact, 255, cv2.THRESH_BINARY, cv2.THRESH_OTSU)[1]
+    
+    thre = cv2.threshold(image, 127, 255, cv2.THRESH_TOZERO)[1]
+    
+    # thre = cv2.threshold(thre, 127, 255, cv2.THRESH_OTSU)[1]
     return thre
 
 #dilation
 def dilate(image):
-    kernel = np.ones((3,3), np.uint8)
+    kernel = np.ones((1,2), np.uint8)
     return cv2.dilate(image, kernel, iterations=1)
 
 #erosion
 def erode(image):
-    kernel = np.ones((1,1))
+    kernel = np.ones((1,2))
     return cv2.erode(image, kernel, iterations=4)
 
 #opening - erosion followed by dilation
 def opening(image):
-    kernel = np.ones((3, 3), np.uint8)
+    kernel = np.ones((1, 2), np.uint8)
     return cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)
 
 #canny edge detection

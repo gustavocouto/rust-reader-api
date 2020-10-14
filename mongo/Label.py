@@ -13,13 +13,6 @@ class Label(MongoDoc):
     ingredients = EmbeddedDocumentListField(IngredientRead, default=[])
     created = DateTimeField(default=datetime.datetime.utcnow)
 
-    # def plain(self):
-    #     doc = super().plain()
-    #     doc['user'] = self.user.plain()
-    #     doc['created'] = self.created.isoformat()
-    #     doc['ingredients'] = [c.plain() for c in self.ingredients]
-    #     return doc
-
     @staticmethod
     def page(skip, limit, user, restrict_user, search=None):
         q_filter = Q(user=user) if restrict_user else Q(user__ne=user)

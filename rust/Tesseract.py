@@ -3,7 +3,6 @@ import pytesseract
 import timeit
 import difflib
 from appenv import app_multiprocessing
-from rapidfuzz import process
 from difflib import get_close_matches
 from pytesseract import Output
 from difflib import SequenceMatcher
@@ -19,7 +18,8 @@ class Tesseract:
         image = self.image
         image = resize_compress(image)
         image = grayscale(image)
-        image = thresholding(image, 160)
+        image = opening(image)
+        image = thresholding(image, 170)
         image = invert_color(image)
         image = deskew(image)
         
@@ -27,7 +27,7 @@ class Tesseract:
 
     def get_text(self):
         image = self.pre_process()
-        user_words_path = __file__.replace('Tesseract.py', 'user-words')
+        user_words_path = __file__.replace('rust/Tesseract.py', 'assets/user-words.txt')
         text = pytesseract.image_to_string(image, lang='por+eng', config='--user-words ' + user_words_path)
         return text.replace('\n', '')
 

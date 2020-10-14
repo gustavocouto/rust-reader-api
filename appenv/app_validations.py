@@ -12,7 +12,7 @@ ingredient_schema = {
 
 user_create_schema = {
     'id': {'required': False, 'type': 'string'},
-    '_id': {'required': False, 'type': 'string'},
+    'monster_name': {'required': False, 'type': 'string', 'minlength': 3, 'maxlength': 100},
     'name': {'required': True, 'type': 'string', 'minlength': 3, 'maxlength': 100},
     'password': {'required': False, 'type': 'string', 'minlength': 3, 'maxlength': 150},
     'email': {'required': True, 'type': 'string', 'minlength': 5, 'maxlength': 100},
