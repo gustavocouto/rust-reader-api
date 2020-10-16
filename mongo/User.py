@@ -19,7 +19,7 @@ class User(MongoDoc):
     def update_password(self, old_password, new_password):
         if old_password != self.password:
             raise ValidatorException(errors={'password': ['Senha atual incorreta']})
-        super().update(set_password=new_password)
+        super().update(set__password=new_password)
         
 
     def update(self, name=None, email=None, monster_name=None, priority_allergenics=None):
