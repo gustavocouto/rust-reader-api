@@ -63,7 +63,7 @@ def auth():
 def user():
     if request.method == 'POST':
         json = read_json_request(app_validations.user_create_schema)
-        user = User(name=json['name'], email=json['email'], password=json['password'])
+        user = User(name=json['name'], email=json['email'], password=json['password'], monster_name=json['monster_name'])
         user.save()
         return app_mapper.to_json(user)
     if request.method == 'PUT':
