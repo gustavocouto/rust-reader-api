@@ -12,12 +12,16 @@ def remove_noise(image):
     return cv2.GaussianBlur(image, (5, 5), 1)
 
 #thresholding
-def thresholding(image, fact):
-    # thre = cv2.threshold(image, fact, 255, cv2.THRESH_BINARY, cv2.THRESH_OTSU)[1]
-    
+def thresholding(image):
     thre = cv2.threshold(image, 127, 255, cv2.THRESH_TOZERO)[1]
+
+    whites = cv2.countNonZero(image)
+    w, h = image.shape[:2]
+    if whites < ((w * h) // 2):
+        thre = cv2.threshold(thre, 127, 255, cv2.THRESH_BINARY)[1]
+    else:
+        thre = cv2.threshold(thre, 127, 255, cv2.THRESH_BINARY_INV)[1]
     
-    # thre = cv2.threshold(thre, 127, 255, cv2.THRESH_OTSU)[1]
     return thre
 
 #dilation
@@ -41,8 +45,8 @@ def canny(image):
 
 def invert_color(image):
     whites = cv2.countNonZero(image)
-    blacks = image.size - whites
-    if blacks > whites:
+    w, h = image.shape[:2]
+    if whites < ((w * h) // 2):
         return cv2.bitwise_not(image)
     else:
         return image
@@ -60,7 +64,7 @@ def resize_compress(image):
     return image
 
 def find_thresholding_fact(image):
-    thre = thresholding(image, 127)
+    thre = thresholding(image)
     rows = range(thre.shape[0])
     columns = range(thre.shape[1])
     pixels = [{'black': thre[x][y] == 0, 'coord': (x, y)} for x in rows for y in columns]

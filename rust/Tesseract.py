@@ -16,11 +16,11 @@ class Tesseract:
 
     def pre_process(self):
         image = self.image
-        image = resize_compress(image)
+        # image = resize_compress(image)
         image = grayscale(image)
-        image = opening(image)
-        image = thresholding(image, 170)
-        image = invert_color(image)
+        # image = opening(image)
+        image = thresholding(image)
+        # image = invert_color(image)
         image = deskew(image)
         
         return image
@@ -30,8 +30,6 @@ class Tesseract:
         user_words_path = __file__.replace('rust/Tesseract.py', 'assets/user-words.txt')
         text = pytesseract.image_to_string(image, lang='por+eng', config='--user-words ' + user_words_path)
         return text.replace('\n', '')
-
-
 
         # load_freq_dawg
         # load_punc_dawg

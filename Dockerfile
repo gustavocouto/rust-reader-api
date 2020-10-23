@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+LABEL org.opencontainers.image.source https://github.com/gustavocouto/rust-reader-api
+
 ENV TZ=America/Fortaleza
 
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
